@@ -5,6 +5,7 @@ Entry point for running experiments.
 """
 
 from models.ollama_client import ask_model, stop_model
+from storage.writer import save
 
 EXPERIMENTS = [
     "Before Gem",
@@ -22,12 +23,15 @@ MODELS = [
     "qwen3"
 ]
 
+run_results = []
+
 
 def stop_models():
     print("Stopping models...")
     for model in MODELS:
         stop_model(model)
     print("Models stopped.")
+
 
 def main():
     print("=" * 60)
@@ -47,15 +51,12 @@ def main():
 
                 for model in MODELS:
                     print(f"Running Model: {model}...")
-
-                    response = ask_model(model, prompt)
-
-                    print("-" * 60)
-                    print(response)
-                    print("-" * 60)
-                    print()
+                    response = ask_model(experiment, model, prompt)
+                    run_results.append(response)
+                    print(f"Model {model} complete.")
 
             print(f"Experiment: '{experiment}' complete.")
+
 
     except KeyboardInterrupt:
         print("\nInterrupted by user.")
@@ -65,6 +66,10 @@ def main():
         print("-" * 60)
         stop_models()
         print("All experiments complete.")
+
+
+    # store the results of this run
+    save(results=run_results)
 
 
 if __name__ == "__main__":

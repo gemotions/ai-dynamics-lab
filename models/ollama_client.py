@@ -15,7 +15,7 @@ def stop_model(model: str):
         stderr=subprocess.DEVNULL,
     )
 
-def ask_model(model: str, prompt: str) -> str:
+def ask_model(experiment: str, model: str, prompt: str) -> str:
     """
     Send a prompt to an Ollama model and return its response.
 
@@ -45,7 +45,10 @@ def ask_model(model: str, prompt: str) -> str:
 
     # return response["message"]["content"]
     return {
+        "experiment": experiment,
+        "prompt": prompt,
         "model": model,
+        "unique_key": f"{experiment}:{prompt}:{model}",
         "response": response["message"]["content"],
         "prompt_tokens": response.get("prompt_eval_count"),
         "response_tokens": response.get("eval_count"),
