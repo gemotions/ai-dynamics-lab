@@ -1,6 +1,6 @@
 # AI Dynamics Lab
 
-A research environment for exploring the behavior of local language models.
+A research environment for running repeatable experiments on local language models and measuring their behavior.
 
 The lab is being built incrementally:
 
