@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python main.py
+(venv)% python main.py
 ```
 
 ---
@@ -74,10 +74,3 @@ ai-dynamics-lab/
 | v0.3 | ⬜ | Save baseline results |
 | v0.4 | ⬜ | Introduce Gem protocol |
 
----
-
-## Current Objective
-
-Establish the native baseline behavior of each model before introducing any protocol.
-
-The baseline serves as the reference point for every future experiment.
