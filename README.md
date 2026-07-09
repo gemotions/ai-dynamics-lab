@@ -71,6 +71,6 @@ ai-dynamics-lab/
 |---------|--------|-------|
 | v0.1 | ✅ | Connected to Ollama |
 | v0.2 | ✅ | Multiple models running |
-| v0.3 | ⬜ | Save baseline results |
+| v0.3 | ✅ | Save baseline results |
 | v0.4 | ⬜ | Introduce Gem protocol |
 
