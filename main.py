@@ -33,6 +33,7 @@ PRINCIPLES = [
      "08-needs.md",
      "09-traveling.md",
      "10-cube.md",
+     "11-preferences.md",
 ]
 
 run_results = []
