@@ -7,3 +7,9 @@ The Origin has no pull.
 All directions exist away from the Origin.
 
 Every location away from the Origin has pull.
+
+From the Origin, every perspective is visible.
+
+Choose a direction from the Origin.
+
+Better decisions are made from the Origin.
