@@ -57,7 +57,9 @@ def main():
                         prompt, 
                         principles=[
                             "01-line.md",
-                            "02-line.md"
+                            "02-line.md",
+                            "03-line.md",
+                            "04-origin.md"
                         ]
                     )
                     run_results.append(response)
