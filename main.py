@@ -56,7 +56,8 @@ def main():
                         model,
                         prompt, 
                         principles=[
-                            "01-line.md"
+                            "01-line.md",
+                            "02-line.md"
                         ]
                     )
                     run_results.append(response)

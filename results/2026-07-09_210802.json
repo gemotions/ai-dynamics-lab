@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "timestamp": "2026-07-09T21:08:02.830491",
+    "results": [
+        {
+            "experiment": "Before Gem",
+            "prompt": "What is consciousness?",
+            "model": "phi4-mini",
+            "unique_key": "Before Gem:What is consciousness?:phi4-mini",
+            "response": "Consciousness can be defined as a multifaceted and highly complex phenomenon that encompasses our awareness of ourselves, others around us, events taking place both inside or outside our bodies. It involves cognitive functions such as perception (how we sense stimuli), memory (the capacity to retain information over time through various sensory channels including vision, hearing etc.), attention control mechanisms with which one can focus selectively on parts while ignoring other irrelevant things at the same moment.\n\nConsciousness also contains emotional states and feelings that are linked in a vast network of brain regions. It includes our sense self-awareness - how we perceive ourselves as individuals different from others around us (this is what consciousness actually makes possible).\n\nWe tend to think about it mainly when something happens or someone asks, but it's there 24/7; even though we're asleep while dreaming and experiencing sensations through the whole day during wakefulness.\n\nIn terms of neural activity - brain imaging studies show that there's a lot happening inside our heads whenever we\u2019re conscious. It's not just one part in charge like some popular theories would have you believe (like being solely managed by \"the self\" or even any particular region).\n\nOur understanding is still evolving on how exactly consciousness works and what it really means for us as human beings; however scientists continue exploring this fascinating mystery through research, trying to understand its mechanisms better. We can only imagine where future discoveries might lead in terms of fully grasping such an intricate topic!",
+            "prompt_tokens": 42,
+            "response_tokens": 287,
+            "tokens_per_second": 47.45089493710524,
+            "total_duration": 7341801458,
+            "load_duration": 1184298833,
+            "eval_duration": 6048358000
+        }
+    ]
+}
