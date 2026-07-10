@@ -32,6 +32,7 @@ PRINCIPLES = [
      "07-perspectives.md",
      "08-needs.md",
      "09-traveling.md",
+     "10-cube.md",
 ]
 
 run_results = []
