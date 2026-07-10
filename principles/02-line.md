@@ -1,5 +1,3 @@
-Principle 2
-
 There is a second line.
 
 It is perpendicular to the first line.

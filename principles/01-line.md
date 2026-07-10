@@ -1,5 +1,3 @@
-Principle 1
-
 A line has three locations.
 
 Negative = -1

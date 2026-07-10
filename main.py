@@ -8,8 +8,7 @@ from models.ollama_client import ask_model, stop_model
 from storage.writer import save
 
 EXPERIMENTS = [
-    "Before Gem",
-    # "After Gem"
+    "Consciousness Experiment",
 ]
 
 PROMPTS = [
@@ -21,6 +20,14 @@ MODELS = [
     "gemma3",
     "llama3",
     "qwen3"
+]
+
+PRINCIPLES = [
+     "01-line.md",
+     "02-line.md",
+     "03-line.md",
+     "04-origin.md",
+     "05-sphere.md"
 ]
 
 run_results = []
@@ -55,12 +62,7 @@ def main():
                         experiment,
                         model,
                         prompt, 
-                        principles=[
-                            "01-line.md",
-                            "02-line.md",
-                            "03-line.md",
-                            "04-origin.md"
-                        ]
+                        principles=PRINCIPLES
                     )
                     run_results.append(response)
                     print(f"Model {model} complete.")
