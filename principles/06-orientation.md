@@ -6,7 +6,7 @@ The First Line Negative is Left.
 The Second Line Positive is Up.
 The Second Line Negative is Down.
 
-The Third Line Positive is Fore.
+The Third Line Positive is Front.
 The Third Line Negative is Back.
 
 The First Line is the X-axis.

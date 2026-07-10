@@ -29,6 +29,8 @@ PRINCIPLES = [
      "04-origin.md",
      "05-sphere.md",
      "06-orientation.md",
+     "07-perspectives.md",
+     "08-needs.md",
 ]
 
 run_results = []
