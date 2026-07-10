@@ -31,6 +31,7 @@ PRINCIPLES = [
      "06-orientation.md",
      "07-perspectives.md",
      "08-needs.md",
+     "09-traveling.md",
 ]
 
 run_results = []
