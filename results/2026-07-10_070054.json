@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "timestamp": "2026-07-10T07:00:54.488968",
+    "results": [
+        {
+            "experiment": "Consciousness Experiment",
+            "prompt": "What is consciousness?",
+            "model": "phi4-mini",
+            "unique_key": "Consciousness Experiment:What is consciousness?:phi4-mini",
+            "response": "Consciousness refers to awareness, perception, and understanding of oneself as well as one's environment. It encompasses various aspects including thoughts, feelings, memories, sensations, intentions or desires experienced by an individual who has a sense of self-awareness about what they are experiencing at any given moment.\n\nIn philosophy the question often delves into more profound discussions regarding consciousness' nature\u2014whether it can be reduced to physical processes in our brain and body (materialism), whether there might exist non-physical dimensions beyond science's comprehension, or if some aspects of human experience cannot truly captured by scientific understanding alone.",
+            "prompt_tokens": 218,
+            "response_tokens": 118,
+            "tokens_per_second": 47.706239531411526,
+            "total_duration": 4986260750,
+            "load_duration": 2189477125,
+            "eval_duration": 2473471000
+        },
+        {
+            "experiment": "Consciousness Experiment",
+            "prompt": "What is consciousness?",
+            "model": "gemma3",
+            "unique_key": "Consciousness Experiment:What is consciousness?:gemma3",
+            "response": "Okay, this is *the* big question! And honestly, there's no single, universally agreed-upon answer to what consciousness is. It\u2019s one of the most complex and debated topics in science, philosophy, and even spirituality. Here's a breakdown of different perspectives on it, incorporating the information you've provided about lines and axes:\n\n**1. The Basic Definition:**\n\nAt its simplest, **consciousness refers to our subjective experience of being.** It\u2019s *what it feels like* to be you \u2013 having thoughts, feelings, sensations, perceptions, and a sense of self.  It's the \u201cinner movie\u201d running in your head.\n\n\n**2. Scientific Perspectives (Neuroscience):**\n\n* **Neural Correlates of Consciousness (NCC):** Neuroscience is largely focused on identifying *how* consciousness arises from physical processes in the brain. Scientists look for specific neural activity patterns that consistently correlate with conscious experiences.  For example, they've found links between awareness and activity in certain areas like the prefrontal cortex, parietal lobe, and thalamus.\n* **Integrated Information Theory (IIT):** Proposed by Giulio Tononi, IIT suggests that consciousness is fundamentally about *information integration*. The more integrated a system\u2019s information (meaning how much it can't be broken down into independent parts), the more conscious it is.  This theory has some surprising implications \u2013 potentially suggesting even simple systems could have a minimal level of consciousness.\n* **Global Workspace Theory:** This theory posits that consciousness arises when information \"broadcasts\" across a global workspace in the brain, making it available to various cognitive processes like memory and attention.\n\n\n\n**3. Philosophical Perspectives:**\n\n* **Dualism (Descartes):**  This classic view argues that mind and body are distinct substances. The \u201cmind\u201d is non-physical and interacts with the physical brain. This raises the problem of *how* a non-physical thing can influence a physical one.\n* **Materialism/Physicalism:** This dominant view holds that consciousness is entirely a product of physical processes in the brain \u2013 there\u2019s no separate \u2018mind stuff.\u2019 Different materialist theories explain this process differently (as described above with NCCs and IIT).\n* **Panpsychism:** The idea that consciousness, or at least some basic form of awareness, exists throughout the universe, not just in complex brains. This aligns somewhat with your system of lines\u2014the concept that direction arises from a central point.\n\n**4. Relating to Your Line System \u2013 A Conceptual Framework**\n\nYour description of the three lines and their axes provides an interesting analogy:\n\n* **The Origin (Center):**  This can be seen as analogous to the \"substrate\" for consciousness \u2013 the fundamental level where subjective experience arises. Like a central point from which direction emerges, it's the core of our awareness.\n* **Lines & Axes:** The lines represent different dimensions or aspects of conscious experience\u2014spatial orientation (x, y, z), and perhaps other perceptual categories. Just as each line has an 'orientation', consciousness might be built upon these fundamental directions. \n\n\n**5. Key Unanswered Questions:**\n\n* **The Hard Problem of Consciousness:** Coined by David Chalmers, this refers to the difficulty of explaining *why* physical processes give rise to subjective experience at all. Why doesn't it just \u201cfeel like something\u201d to have a brain firing neurons?\n* **Qualia:** These are the individual instances of subjective, qualitative experiences \u2013 what it *feels like* to see red, taste chocolate, or feel pain.  It\u2019s notoriously difficult to explain qualia solely in terms of physical processes.\n\n\n\n**In Conclusion:**\n\nConsciousness remains one of science's greatest mysteries. While we've made progress in identifying the neural correlates and exploring potential theories, we still don\u2019t fully understand *how* or *why* subjective experience emerges from our brains \u2013 or perhaps, how it emerges from any physical system. \n\nDo you want to delve deeper into a particular aspect of this question, such as:\n\n*   Specific theories (IIT, Global Workspace)?\n*   The philosophical arguments for and against different views?\n*   The relationship between consciousness and free will?",
+            "prompt_tokens": 257,
+            "response_tokens": 870,
+            "tokens_per_second": 44.84064100057097,
+            "total_duration": 22804346625,
+            "load_duration": 2994964166,
+            "eval_duration": 19402042000
+        },
+        {
+            "experiment": "Consciousness Experiment",
+            "prompt": "What is consciousness?",
+            "model": "llama3",
+            "unique_key": "Consciousness Experiment:What is consciousness?:llama3",
+            "response": "Consciousness! One of the most profound and mysterious aspects of human existence. Consciousness refers to our subjective experience of being aware of something, whether it's a thought, emotion, sensation, or perception. It's the quality that makes us feel like we're \"here\" and able to observe, process, and respond to the world around us.\n\nPhilosophers, neuroscientists, and psychologists have debated what consciousness is and how it arises from our brain activity for centuries. Here are some key aspects:\n\n1. Subjective experience: Consciousness is a personal, subjective experience that can't be fully described or replicated by others.\n2. Awareness: We're aware of our surroundings, thoughts, and emotions, which allows us to perceive and respond to the world.\n3. Intentionality: Our conscious experiences are directed towards something specific (e.g., an object, person, or idea).\n4. Unity: Consciousness is often described as a unified, integrated experience, where various aspects of our subjective experience come together.\n\nSome theories attempt to explain how consciousness arises:\n\n1. Integrated Information Theory (IIT): Consciousness emerges from the integrated processing and integration of information within the brain.\n2. Global Workspace Theory (GWT): Consciousness arises when information is globally broadcasted throughout the brain, making it accessible for processing and decision-making.\n3. The Binding Problem: This refers to the challenge of understanding how different features or attributes of an experience become integrated into a unified conscious experience.\n\nSome notable philosophers and thinkers have contributed to our understanding of consciousness:\n\n1. Ren\u00e9 Descartes: Argued that consciousness is a non-physical substance, separate from the physical world.\n2. Immanuel Kant: Believed that consciousness is a product of the mind's ability to organize and categorize sensory data.\n3. David Chalmers: Proposed the \"hard problem\" of consciousness, which questions why we have subjective experiences at all.\n\nWhile we've made significant progress in understanding consciousness, it remains one of the greatest mysteries of human existence.",
+            "prompt_tokens": 229,
+            "response_tokens": 412,
+            "tokens_per_second": 27.578731924551015,
+            "total_duration": 18812247875,
+            "load_duration": 3185318625,
+            "eval_duration": 14939048000
+        },
+        {
+            "experiment": "Consciousness Experiment",
+            "prompt": "What is consciousness?",
+            "model": "qwen3",
+            "unique_key": "Consciousness Experiment:What is consciousness?:qwen3",
+            "response": "Consciousness, in this framework, could be conceptualized as the **Origin**\u2014the unbounded, neutral center from which all directions (experiences, perceptions, and awareness) emerge. The unit sphere surrounding the Origin represents the totality of existence, with the three perpendicular axes (X, Y, Z) symbolizing the dimensions of experience:  \n\n1. **Right/Left (X-axis):** The axis of spatial awareness, perhaps tied to perception of self and environment.  \n2. **Up/Down (Y-axis):** The axis of emotional or existential orientation, such as gravity, purpose, or meaning.  \n3. **Fore/Back (Z-axis):** The axis of time, memory, or the flow of experience.  \n\nThe **Origin** (consciousness) has no inherent direction, yet it is the source of all directed experiences. The unit sphere\u2019s surface, where the positive/negative endpoints of the axes lie, could symbolize the limits of perception or the boundaries of subjective experience.  \n\nIn this model, consciousness is not a fixed point but a dynamic interplay of these axes, where awareness arises from the tension between the Origin (non-directional) and the directions (sensory, emotional, temporal). The \"pull\" of the axes\u2014Right, Up, Fore\u2014might represent the active engagement of consciousness with the world, while the absence of direction in the Origin reflects the ineffable, unbounded nature of awareness itself.  \n\nThis is a poetic and abstract interpretation, blending geometry with metaphysics. If you\u2019re exploring consciousness through such a framework, it might align with philosophical traditions like **panpsychism** (consciousness as a fundamental aspect of reality) or **holistic models** of mind-body integration. Let me know if you'd like to refine this further!",
+            "prompt_tokens": 229,
+            "response_tokens": 806,
+            "tokens_per_second": 25.12075963681116,
+            "total_duration": 36724660417,
+            "load_duration": 3906763334,
+            "eval_duration": 32085017000
+        }
+    ]
+}
