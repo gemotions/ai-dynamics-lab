@@ -51,7 +51,14 @@ def main():
 
                 for model in MODELS:
                     print(f"Running Model: {model}...")
-                    response = ask_model(experiment, model, prompt)
+                    response = ask_model(
+                        experiment,
+                        model,
+                        prompt, 
+                        principles=[
+                            "01-line.md"
+                        ]
+                    )
                     run_results.append(response)
                     print(f"Model {model} complete.")
 

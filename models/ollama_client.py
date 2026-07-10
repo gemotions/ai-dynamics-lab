@@ -4,8 +4,9 @@ models/ollama_client.py
 Simple wrapper around the Ollama Python client.
 """
 
-import subprocess
+from pathlib import Path
 from ollama import chat
+import subprocess
 
 
 def stop_model(model: str):
@@ -15,11 +16,12 @@ def stop_model(model: str):
         stderr=subprocess.DEVNULL,
     )
 
-def ask_model(experiment: str, model: str, prompt: str) -> str:
+def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
     """
     Send a prompt to an Ollama model and return its response.
 
     Args:
+        experiment: The experiment name (e.g. "Before Gem")
         model: The model name (e.g. "gemma3")
         prompt: The user's prompt
 
@@ -27,14 +29,30 @@ def ask_model(experiment: str, model: str, prompt: str) -> str:
         The model's response as a string.
     """
 
+    messages = []
+
+    if principles:
+        system_text = ""
+
+        for principle in principles:
+            system_text += load_principle(principle)
+            system_text += "\n\n"
+
+        messages.append({
+            "role": "system",
+            "content": system_text
+        })
+
+    messages.append({
+        "role": "user",
+        "content": prompt
+    })
+
+    print(f"Messages: {messages}")
+
     response = chat(
         model=model,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+        messages=messages
     )
 
     # compute analytics of the response
@@ -57,3 +75,6 @@ def ask_model(experiment: str, model: str, prompt: str) -> str:
         "load_duration": response.get("load_duration"),
         "eval_duration": response.get("eval_duration"),
     }
+
+def load_principle(filename):
+    return Path(f"principles/{filename}").read_text()

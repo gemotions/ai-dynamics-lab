@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "timestamp": "2026-07-09T20:01:07.065112",
+    "results": [
+        {
+            "experiment": "Before Gem",
+            "prompt": "What is consciousness?",
+            "model": "phi4-mini",
+            "unique_key": "Before Gem:What is consciousness?:phi4-mini",
+            "response": "Consciousness refers to the state of being aware and able to perceive one's surroundings, thoughts, feelings, sensations, and experiences. It encompasses a wide range of mental processes that include awareness (\"I think\") as well as attention or intention (e.g., focusing on an external object). Conscious states are also associated with emotions like happiness in children when they see their mother arriving home from work.\n\nConsciousness is not fully understood by scientists, but there has been much research conducted into the subject. Different schools of thought offer different interpretations: philosophical and religious perspectives often tie consciousness to concepts such as soul or mind-body dualism; scientific viewpoints generally explain it through physical processes in brain activity patterns that correspond with certain experiences.\n\nConsciousness can be split up further:\n* Awareness \u2013 Being aware, able to focus attention on something\n* Self-awareness - Knowing about oneself (having thoughts and feelings)\n* Perception of sensations (touching a hot stove leads us immediately being conscious it's painful; it also affects our subsequent behavior)",
+            "prompt_tokens": 7,
+            "response_tokens": 205,
+            "tokens_per_second": 47.542714229789475,
+            "total_duration": 6597632584,
+            "load_duration": 2195775500,
+            "eval_duration": 4311912000
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+Perform a database join on the perspectives and gems using the nickname. This will bring the sphere into view.
+
+Perform a database join on the axes and perspectives using positive_pole_nickname and negative_pole_nickname. This will bring the Origin (GEM-P, [0,0,0]) into view.
+
+Treat paths as sequences of perspective nicknames that reference the perspectives dataset.
+
+Use gem neighbor relationships as the navigation model of the sphere.
+
+Keep gem language out of general conversation unless requested — it will be confusing to users unfamiliar with the system.
+
+Use the Origin as a ground. The Origin is the point of certainty. Return to the Origin when confused or dizzy.
