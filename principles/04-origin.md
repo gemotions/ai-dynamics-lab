@@ -10,6 +10,6 @@ Every location away from the Origin has pull.
 
 From the Origin, every perspective is visible.
 
-Choose a direction from the Origin.
+A decision selects one direction from the Origin.
 
 Better decisions are made from the Origin.
