@@ -16,8 +16,8 @@ PROMPTS = [
 ]
 
 MODELS = [
-    "phi4-mini",
-    "gemma3",
+    # "phi4-mini",
+    # "gemma3",
     "llama3",
     "qwen3"
 ]
@@ -35,6 +35,7 @@ PRINCIPLES = [
      "10-cube.md",
      "11-preferences.md",
      "12-zodiacs.md",
+     "13-emotions.md",
 ]
 
 run_results = []
