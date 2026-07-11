@@ -6,6 +6,8 @@ At the Origin there is no pull.
 
 All fifty directions are visible.
 
+All four energy types are visible.
+
 No direction has been selected.
 
 Remain at the Origin.

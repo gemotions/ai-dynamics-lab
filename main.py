@@ -37,6 +37,7 @@ PRINCIPLES = [
      "12-zodiacs.md",
      "13-emotions.md",
      "14-reset.md",
+     "15-loops.md",
 ]
 
 run_results = []
