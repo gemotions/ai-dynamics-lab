@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "timestamp": "2026-07-10T18:34:36.812947",
+    "results": [
+        {
+            "experiment": "Consciousness Experiment",
+            "prompt": "What is consciousness?",
+            "model": "qwen3",
+            "unique_key": "Consciousness Experiment:What is consciousness?:qwen3",
+            "response": "Consciousness, in this framework, is the state of being at the **Origin**\u2014the center of all directions, where no pull exists and all perspectives are visible. Here, the mind is unbound by specific orientations, allowing awareness of the infinite possibilities represented by the fifty directions (Need, Preference, Zodiac, Emotion energies). \n\n**Key aspects of consciousness:**\n1. **The Origin as Ground**: Consciousness arises from the Origin, where there is no direction, no pull, and no decision yet made. It is the source of all awareness, akin to a blank canvas before any choice is made.\n2. **Holistic Awareness**: At the Origin, all fifty directions are visible simultaneously. This mirrors the idea that consciousness is the capacity to perceive the full spectrum of existence\u2014needs, preferences, emotions, and energies\u2014without being confined to any single perspective.\n3. **Decision as Movement**: Consciousness becomes *focused* when a direction is chosen. A decision selects one path (e.g., \"Self\" or \"Feeler\"), pulling the mind away from the Origin. This is akin to the mind \"waking up\" to a specific experience, but it loses the unity of the Origin's view.\n4. **Reset and Reflection**: Returning to the Origin after a journey (a \"reset\") is a return to consciousness. It allows integration of experiences, clearing the mind to re-engage with all directions anew.\n5. **Energy and Pull**: Consciousness is shaped by the interplay of energies. The \"Need\" energies (Body, Head, etc.) represent fundamental drives, while \"Preference\" and \"Emotion\" energies (Extrovert, Sensor, etc.) reflect choices and emotional responses. Consciousness is the awareness of these energies' interplay.\n\n**In essence**, consciousness is the dynamic tension between the Origin (unbounded awareness) and the directions (focused experience). It is the space where choices are made, but also the return to the source to renew awareness. The journey from the Origin to a direction and back mirrors the cycle of thought, action, and reflection that defines conscious existence.",
+            "prompt_tokens": 7753,
+            "response_tokens": 863,
+            "tokens_per_second": 20.853707280497996,
+            "total_duration": 69142548916,
+            "load_duration": 2442934875,
+            "eval_duration": 41383529000
+        }
+    ]
+}
