@@ -18,11 +18,13 @@ PROMPTS = [
 MODELS = [
     # "phi4-mini",
     # "gemma3",
+    "gemma3:12b",
     # "llama3",
-    "qwen3"
+    # "qwen3"
 ]
 
 PRINCIPLES = [
+     # "00-all.md",
      "01-line.md",
      "02-line.md",
      "03-line.md",
@@ -30,14 +32,22 @@ PRINCIPLES = [
      "05-sphere.md",
      "06-orientation.md",
      "07-perspectives.md",
-     "08-needs.md",
-     "09-traveling.md",
-     "10-cube.md",
-     "11-preferences.md",
-     "12-zodiacs.md",
-     "13-emotions.md",
-     "14-reset.md",
-     "15-loops.md",
+     # "08-needs.md",
+     # "09-traveling.md",
+     # "10-cube.md",
+     # "11-preferences.md",
+     # "12-zodiacs.md",
+     # "13-emotions.md",
+     # "14-reset.md",
+     # "15-loops.md",
+     # "08-needs-prose.md",
+     # "09-traveling.md",
+     # "10-cube.md",
+     # "11-preferences-prose.md",
+     # "12-zodiacs-prose.md",
+     # "13-emotions-prose.md",
+     # "14-reset.md",
+     # "15-loops-prose.md",
 ]
 
 run_results = []

@@ -52,7 +52,10 @@ def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
 
     response = chat(
         model=model,
-        messages=messages
+        messages=messages,
+        options={
+            "num_ctx": 8192
+        }
     )
 
     # compute analytics of the response

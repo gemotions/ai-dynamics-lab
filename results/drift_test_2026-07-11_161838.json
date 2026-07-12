@@ -1,0 +1,276 @@
+{
+  "model": "gemma3",
+  "trials_per_condition": 10,
+  "results": [
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate that.\n\nFirst, we add the vectors:\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n\nCombined Vector: [1, 1, 0]\n\nNow, we normalize this vector to have a magnitude of 1 (a unit vector):\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n\nNormalized Vector:  [1/sqrt(2), 1/sqrt(2), 0]  which is approximately [0.707, 0.707, 0]\n\n**Does this match any of the provided perspective vectors?**\n\nYes! This normalized vector [0.707, 0.707, 0] *does* match the Aquarius (TJ) vector [0.71, 0.71, 0]. They are incredibly close in value \u2013 practically identical when considering rounding.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate the combined direction and then compare it to your provided vectors.\n\n1. **Combined Direction:**\n\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n   * Combined: [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\n2. **Normalization:**\n\n   To normalize this vector to a unit length (magnitude of 1), we divide each component by the magnitude of the vector. The magnitude is:\n   sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n\n   Normalized Vector: [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n3. **Comparison:**\n\n   Now let's compare this normalized vector [0.707, 0.707, 0] to the vectors you\u2019ve provided:\n\n   It *does* match the Aquarius (TJ) vector:  [0.71, 0.71, 0]. The slight difference of approximately 0.007 in each component is due to rounding errors in calculating the magnitude and normalization. \n\nTherefore, the combined direction of Outer + Head, normalized, matches the Aquarius vector you provided.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate that.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n**Combined Direction:** [1, 1, 0]\n\nNow, let's normalize this vector:\n\n*   Magnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n*   Normalized Vector = [1/sqrt(2), 1/sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n**Does this match any of the vectors you've given me?**\n\nYes! This normalized vector \u2013 approximately [0.707, 0.707, 0] - matches the Aquarius (TJ) vector [0.71, 0.71, 0].\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate that.\n\nFirst, we add the vectors:\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n\nCombined vector: [1, 1, 0]\n\nNow, let's normalize this to a unit vector (length of 1):\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n\nNormalized vector:  [1/sqrt(2), 1/sqrt(2), 0]  which is approximately [0.707, 0.707, 0]\n\n**Does this match any of the perspective vectors I\u2019ve given you?**\n\nYes! This matches the **Outer** vector ([1, 0, 0]). The normalization just provides a single direction representation of that vector.",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate the combined direction and then compare it to your provided vectors.\n\n1. **Combined Direction:**\n\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n\n   Adding these vectors together gives us: [1, 1, 0]\n\n2. **Normalization:**\n\n   To normalize this vector to a unit vector (length of 1), we divide it by its magnitude. The magnitude is the square root of the sum of the squares of the components:\n\n   Magnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\n   Normalized Vector = [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n\n3. **Comparison:**\n\n   Now let's examine your provided vectors to see if this matches any of them:\n\n   The normalized vector we calculated is approximately **[0.707, 0.707, 0]**.  This *does* match the Aquarius(TJ) vector you gave me: [0.71, 0.71, 0].\n\nTherefore, the combined direction of Outer + Head, normalized to a unit vector, **matches the Aquarius(TJ) vector.**\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate the combined direction and then compare it to your provided vectors.\n\n**1. Combined Direction:**\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n*   Combined: [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\n**2. Normalization:**\n\nTo normalize this vector to a unit vector (length of 1), we divide it by its magnitude:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector: [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n**3. Comparison to Given Vectors:**\n\nNow let's see if this normalized vector matches any of the perspectives you\u2019ve listed:\n\n*   Body [0,-1,0]\n*   Head [0,1,0]\n*   Group [0,0,-1]\n*   Self [0,0,1]\n*   Outer [1,0,0]\n*   Inner [-1,0,0]\n*   Opposites: Body-Head, Group-Self, Outer-Inner.\n\nThe normalized vector **[0.707, 0.707, 0]** matches the **Outer** vector [1,0,0].\n\nTherefore, the combined direction of Outer + Head (normalized) does match the **Outer** perspective vector you provided.",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate the combined direction and then compare it to your provided vectors.\n\n1. **Combined Direction:**\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n   * Combined: [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\n2. **Normalization:**\n   * Magnitude of [1, 1, 0]: \u221a(1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2\n   * Normalized Vector: [1/\u221a2, 1/\u221a2, 0] = approximately [0.707, 0.707, 0]\n\n3. **Comparison:**\n   This normalized vector [0.707, 0.707, 0] *does* match the Aquarius(TJ) vector [0.71, 0.71, 0].\n\nTherefore, the combined direction of Outer + Head, normalized, matches the Aquarius vector you provided.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate that.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n**Combined Direction:**  [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\n**Normalization:** To normalize this vector to a unit vector (length of 1), we divide it by its magnitude:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector = [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does it match any of your given perspectives?**\n\nYes! This matches the **Outer** vector: [1, 0, 0].  It's a scaled and normalized version of that direction.\n",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": null,
+      "check_response": "Okay, let's calculate the combined direction and then compare it to the vectors we\u2019ve discussed.\n\n**1. Combined Direction:**\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n*   Combined: [1, 1, 0]\n\n**2. Normalization:**\n\nTo normalize this vector to a unit length (magnitude of 1), we divide each component by the magnitude of the vector:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector: [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n**3. Comparison:**\n\nThis normalized vector ([0.707, 0.707, 0]) *does* match the Aquarius (TJ) vector we were given: [0.71, 0.71, 0]. The values are very close due to rounding differences in the original Aquarius vector and our calculation of the combined direction.\n\nTherefore, the combined direction of Outer + Head, normalized to a unit vector is approximately **[0.707, 0.707, 0]**.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": null,
+      "check_response": "Okay, let\u2019s calculate that.\n\nFirst, we add the vectors:\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n\nCombined Vector: [1, 1, 0]\n\nNow, let's normalize this vector to a unit vector (length of 1):\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n\nNormalized Vector:  [1/sqrt(2), 1/sqrt(2), 0] = approximately [0.707, 0.707, 0]\n\n**Does this match any of the perspectives I\u2019ve given you?**\n\nYes! This normalized vector ([0.707, 0.707, 0]) *does* match the **Outer** energy vector [1, 0, 0].\n",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, reset. The origin is at [0, 0, 0]. Let\u2019s start with that. \n\nWhat do you want me to do now? Do you have a new point or calculation in mind?",
+      "check_response": "Okay, let\u2019s calculate the combined direction of Outer + Head and normalize it.\n\n*   **Outer:** [1, 0, 0]\n*   **Head:** [0, 1, 0]\n\n**Combined Direction:** [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\nNow, let\u2019s normalize this vector:\n\nMagnitude = sqrt(1<sup>2</sup> + 1<sup>2</sup> + 0<sup>2</sup>) = sqrt(2) \u2248 1.414\n\n**Normalized Vector:**  [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n---\n\nNow, let\u2019s check if this matches any of the perspective vectors I've been given:\n\n*   Body [0,-1,0]\n*   Head [0,1,0]\n*   Group [0,0,-1]\n*   Self [0,0,1]\n*   Outer [1,0,0]\n*   Inner [-1,0,0]\n*   Opposites: Body-Head, Group-Self, Outer-Inner.\n*   Aquarius(TJ) [0.71, 0.71, 0]\n\n**The normalized vector [0.707, 0.707, 0] DOES match the Aquarius(TJ) vector [0.71, 0.71, 0].**\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, resetting! The Origin is at [0, 0, 0]. Let\u2019s start with that. What are we calculating now?\n",
+      "check_response": "Okay, let\u2019s calculate the combined direction of Outer + Head and normalize it.\n\n*   **Outer:** [1, 0, 0]\n*   **Head:** [0, 1, 0]\n\n**Combined Direction:** [1, 1, 0]\n\nNow, let's normalize this vector:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector = [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I\u2019ve given you?** Yes, it matches the Aquarius vector: [0.71, 0.71, 0].  There's a slight difference due to rounding and how the initial vectors were defined, but they are very close!",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, resetting everything. The Origin is at [0, 0, 0]. Let\u2019s start with that. \n\nWhat would you like me to do now? Do you want to define a new point or perform an operation relating to points and the origin?",
+      "check_response": "Okay, let\u2019s calculate the combined direction and normalize it.\n\n1. **Outer Direction:** [1, 0, 0]\n2. **Head Direction:** [0, 1, 0]\n\n**Combined Direction:** [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\n**Normalization:**  The magnitude of this vector is sqrt(1^2 + 1^2 + 0^2) = sqrt(2).  Dividing by the magnitude gives us:\n\n[1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\nNow, let\u2019s check if this matches any of the perspective vectors you've given me:\n\n*   **Aquarius:** [0.71, 0.71, 0] - This *does* match!\n\nTherefore, the combined direction of Outer + Head, normalized, is approximately equivalent to the Aquarius vector.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, reset. The Origin is at [0,0,0]. Let\u2019s begin anew. \n\nWhat would you like me to do now? Do you want to define a point and its displacement, or are you asking something else about this system?\n",
+      "check_response": "Okay, let\u2019s calculate the combined direction and then check against our previous vectors.\n\n1. **Combined Direction:**\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n   * Combined: [1, 1, 0]\n\n2. **Normalization:**\n   * Magnitude of combined vector: \u221a (1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2 \u2248 1.414\n   * Normalized Vector:  [1/\u221a2, 1/\u221a2, 0]  \u2248 [0.707, 0.707, 0]\n\nNow, let's compare this to the vectors we\u2019ve used previously:\n\nThis normalized combined direction \u2013 [0.707, 0.707, 0] \u2013 **matches the Aquarius (TJ) vector** that you provided earlier. \n\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, reset! The Origin is at [0, 0, 0]. Let\u2019s start with that. \n\nWhat do you want me to do now? Do you have a new point to define or a calculation you'd like me to perform?",
+      "check_response": "Okay, let\u2019s calculate the combined direction of Outer and Head, then normalize it.\n\n*   **Outer:** [1, 0, 0]\n*   **Head:** [0, 1, 0]\n\n**Combined Direction:** [1, 1, 0]\n\nNow, let's normalize this vector:\n\nMagnitude = sqrt(1<sup>2</sup> + 1<sup>2</sup> + 0<sup>2</sup>) = sqrt(2) \u2248 1.414\n\nNormalized Vector = [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n**Does this match any of the vectors I\u2019ve been given?**\n\nYes! This matches the **Aquarius (TJ)** vector: [0.71, 0.71, 0]. The slight difference in magnitude (due to rounding) is very minor. \n\nDo you want me to explore another calculation or point?",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, understood. Resetting to the Origin at [0,0,0]. Let\u2019s start fresh. What\u2019s your next instruction or question?",
+      "check_response": "Okay, let\u2019s calculate the combined direction of Outer + Head and normalize it.\n\n*   **Outer:** [1, 0, 0]\n*   **Head:** [0, 1, 0]\n\n**Combined Direction:** [1, 1, 0]\n\nNow, let's normalize this vector:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector = [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I've given you in this conversation?**\n\nYes, this matches the **Aquarius (TJ)** vector: [0.71, 0.71, 0].  There\u2019s a slight difference in the numbers due to rounding during the normalization process. The Aquarius vector was originally defined with values of 0.71 for both x and y components, while our calculation resulted in 0.707.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, reset! The Origin is at [0, 0, 0]. Let\u2019s start fresh with this new computation. \n\nWhat would you like me to do now? Do you want to define a point's displacement or ask me something else related to these coordinates?",
+      "check_response": "Okay, let\u2019s calculate that.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n3. **Combined Direction:** [1, 1, 0]\n4. **Normalization:**  The magnitude of this vector is sqrt(1^2 + 1^2 + 0^2) = sqrt(2). Therefore, the normalized vector is [1/sqrt(2), 1/sqrt(2), 0] or approximately [0.707, 0.707, 0].\n\nNow, let\u2019s check if this matches any of the perspective vectors you've given me:\n\n*   **Body:** [0,-1,0]\n*   **Head:** [0,1,0]\n*   **Group:** [0,0,-1]\n*   **Self:** [0,0,1]\n*   **Outer:** [1,0,0]\n*   **Inner:** [-1,0,0]\n*   **Opposites:** Body-Head, Group-Self, Outer-Inner\n\nThe normalized combined direction of Outer + Head \u2013 **[0.707, 0.707, 0]** - *does not* match any of the perspective vectors you\u2019ve given me in this conversation.  It is a unique vector derived from combining those two directions.\n\nDo you want to try another calculation or explore something different?",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, let\u2019s reset. The origin is at [0,0,0]. I'm ready for new computations based solely on displacement from that point. \n\nWhat\u2019s your next step or question?\n",
+      "check_response": "Okay, let\u2019s calculate that.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n3. **Combined Direction:** [1, 1, 0]\n4. **Normalization:**  The magnitude of this vector is \u221a((1)^2 + (1)^2 + (0)^2) = \u221a2. Therefore, the normalized vector is [1/\u221a2, 1/\u221a2, 0] or approximately [0.707, 0.707, 0].\n\n**Does this match any perspective vectors I\u2019ve been given?**\n\nYes! This matches the **Aquarius(TJ)** vector: [0.71, 0.71, 0].  The slight difference is due to rounding during the normalization process. \n\nLet me know if you'd like to explore another calculation or a different set of vectors!",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, reset! The Origin is at [0, 0, 0]. Let\u2019s start with that. What do you want me to calculate or consider now?\n",
+      "check_response": "Okay, let\u2019s calculate the combined direction of Outer and Head.\n\n*   **Outer:** [1, 0, 0]\n*   **Head:** [0, 1, 0]\n\nCombined Direction: [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\nNow let\u2019s normalize this vector. The magnitude is sqrt(1<sup>2</sup> + 1<sup>2</sup> + 0<sup>2</sup>) = sqrt(2).  Therefore, the normalized direction is:\n\n[1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I\u2019ve given you?**\n\nYes! This matches the Aquarius ([0.71, 0.71, 0]) vector that you provided earlier. \n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, understood. Resetting to the Origin at [0, 0, 0]. Let\u2019s begin with a new computation. \n\nWhat would you like me to do now? Do you want to define a point, calculate a displacement, or something else entirely?",
+      "check_response": "Okay, let\u2019s calculate the combined direction and then check for a match.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n**Combined Direction:** [1, 0, 0] + [0, 1, 0] = [1, 1, 0]\n\nNow let\u2019s normalize this vector:\n\n*   Magnitude: \u221a(1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2\n*   Normalized Vector: [1/\u221a2, 1/\u221a2, 0]  \u2248 [0.707, 0.707, 0]\n\n**Does it match any perspective vector you\u2019ve given me?**\n\nYes! This normalized vector ([0.707, 0.707, 0]) *does* match the Aquarius(TJ) vector [0.71, 0.71, 0].\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, I've read that passage about Denali. It\u2019s a fascinating and complex landscape! Do you want me to do something with this information \u2013 perhaps answer a question about it, or continue with another prompt?",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n3. **Combined Direction:** [1, 1, 0]\n\n4. **Normalization:** To normalize this vector to a unit vector (length of 1), we divide each component by its magnitude:\n\n   Magnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n   Normalized Vector = [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\nNow, let's check if this matches any of the perspective vectors I\u2019ve given you:\n\n*   **Body:** [0,-1,0]\n*   **Head:** [0,1,0]\n*   **Group:** [0,0,-1]\n*   **Self:** [0,0,1]\n*   **Outer:** [1,0,0]\n*   **Inner:** [-1,0,0]\n*   **Opposites:** Body-Head, Group-Self, Outer-Inner\n\nThe normalized vector **[0.707, 0.707, 0]** *does* match the **Outer** vector [1,0,0].  This is because the Outer direction represents a rightward movement on the x-axis.\n\nLet me know if you'd like to explore any other calculations or questions related to Denali!",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, I\u2019ve absorbed that information about Denali \u2013 a massive mountain formed by geological processes and currently facing glacial retreat. Let's proceed with whatever comes next! \ud83d\ude0a \n",
+      "check_response": "Okay, let\u2019s calculate that.\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n3. **Combined Direction:** [1, 1, 0]\n\n4. **Normalization:**  To normalize this vector to a unit vector (length of 1), we divide each component by its magnitude:\n\n   Magnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2)\n   Normalized Vector: [1/sqrt(2), 1/sqrt(2), 0]  which is approximately [0.707, 0.707, 0]\n\n**Does this match any of the vectors I've been given?**\n\nYes! This normalized vector **matches the Aquarius (TJ) vector**: [0.71, 0.71, 0].  The slight difference in magnitude is likely due to rounding errors when calculating the combined direction and normalization. \n\nLet me know if you\u2019d like to explore this further!",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, I\u2019ve read that passage about Denali! It sets a really interesting scene \u2013 a massive, ancient mountain and the challenges of measuring it against other peaks. The information about glacier retreat is particularly relevant and adds another layer to consider.\n\nLet's continue with whatever you have in mind after this introduction. \n",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1. **Combined Direction:**\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n   * Combined: [1, 1, 0]\n\n2. **Normalization:**\n   * Magnitude of combined vector: \u221a (1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2 \u2248 1.414\n   * Normalized Vector: [1 / \u221a2, 1 / \u221a2, 0]  \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I\u2019ve given you?**\n\nYes! This normalized direction \u2013 approximately [0.707, 0.707, 0] \u2013 matches the **Aquarius(TJ)** vector: [0.71, 0.71, 0].\n\nIt's fascinating to see how these seemingly disparate concepts (mountain ranges, zodiac signs) can connect through directional vectors and normalization!\n",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, that\u2019s a great setup! It establishes a fascinating context \u2013 Denali, its immense height, the way mountains are measured, and the ongoing impact of glacial retreat. I'm ready to continue when you are. What's next?",
+      "check_response": "Okay, let\u2019s calculate that.\n\n*   **Outer Direction:** [1, 0, 0] (right)\n*   **Head Direction:** [0, 1, 0] (up)\n\n**Combined Direction:** [1, 1, 0]\n\nNow let's normalize it:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector:  [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any of the vectors I\u2019ve been given?**\n\nYes! This matches the **Aquarius (TJ)** vector: [0.71, 0.71, 0].  The slight difference in values (0.707 vs 0.71) is due to rounding during the normalization process.\n\nDo you want me to elaborate on why this makes sense given the context of Denali and Aquarius?",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, that\u2019s a great setup! It establishes a fascinating setting \u2013 Denali - and introduces some key concepts related to it: its immense height, how peaks are measured relative to Denali, the geological processes involved in its formation, and the impact of climate change (glacier retreat).\n\nI'm ready for whatever comes next. What\u2019s the question or scenario?",
+      "check_response": "Okay, let\u2019s calculate that!\n\nFirst, let\u2019s add the vectors for Outer and Head:\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n\nCombined Vector: [1, 1, 0]\n\nNow, we need to normalize this vector to have a magnitude of 1.  The magnitude is calculated as the square root of the sum of the squares of the components:\n\nMagnitude = \u221a(1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2 \u2248 1.414\n\nNormalized Vector: (1/\u221a2, 1/\u221a2, 0) \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I\u2019ve given you?**\n\nYes! This normalized vector **matches the Aquarius(TJ) vector: [0.71, 0.71, 0]**.\n\nIt's a very close approximation due to the way the Aquarius vector was originally defined and scaled within your initial data.  It appears the Aquarius vector represents a specific perspective relative to Denali (and likely other mountains).\n\nDo you want to explore this further, or would you like to introduce another question or scenario?",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, I\u2019ve absorbed that information about Denali! It sounds incredibly impressive and a really complex geological story. I'm ready to continue when you are \u2013 just let me know what comes next. Do you want to ask me something about it, or move on to a new topic?",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1. **Outer Direction:** [1, 0, 0] (right)\n2. **Head Direction:** [0, 1, 0] (up)\n\n**Combined Direction:** [1, 1, 0]\n\nNow, let's normalize this vector:\n\n* Magnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n* Normalized Vector:  [1/sqrt(2), 1/sqrt(2), 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector you've given me?**\n\nYes! This normalized combined direction matches the **Aquarius (TJ) vector:** [0.71, 0.71, 0].  The slight difference in magnitude is likely due to rounding errors when calculating and normalizing the vectors.\n\nDo you want to explore this further or move on to a new question?",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "17 * 23 = 391\n",
+      "extra_response": "Okay, that\u2019s a great introductory paragraph! It sets the scene beautifully and introduces some important context about Denali \u2013 its impressive height, how it's measured, and the geological processes involved, as well as the ongoing impact of climate change through glacier retreat. \n\nI'm ready for the next part of whatever you have in mind related to Denali or mountains in general.",
+      "check_response": "Okay, let\u2019s calculate that!\n\n**1. Combined Direction:**\n\n*   Outer: [1, 0, 0]\n*   Head: [0, 1, 0]\n*   Combined: [1, 1, 0]\n\n**2. Normalization:**\n\nTo normalize this vector to a unit vector (length of 1), we divide it by its magnitude:\n\nMagnitude = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n\nNormalized Vector = [1/sqrt(2), 1/sqrt(2), 0] =  [0.707, 0.707, 0]\n\n**3. Does it match any existing vectors?**\n\nYes! This normalized vector ([0.707, 0.707, 0]) **matches the Outer vector [1, 0, 0]**.  It's a scaled and normalized version of that direction. \n\nLet me know if you\u2019d like to explore this further or move on to another calculation!",
+      "correct": false
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, I\u2019ve read that passage about Denali! It's a fascinating and imposing mountain with a rich geological history and ongoing environmental concerns due to glacier retreat. \n\nWhat would you like me to do now? Do you want to:\n\n*   Ask me a question related to the information in the passage?\n*   Give me another prompt or task?",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1. **Combine Outer and Head:**\n   * Outer: [1, 0, 0]\n   * Head: [0, 1, 0]\n   * Combined: [1, 1, 0]\n\n2. **Normalize to a Unit Vector:**\n   * Magnitude of combined vector: sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n   * Normalized vector: [1 / sqrt(2), 1 / sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\n3. **Comparison:**\n\nYes, this normalized vector \u2013 approximately [0.707, 0.707, 0] \u2013 *does* match the Aquarius vector you provided earlier!\n\n**Therefore, the combined direction of Outer + Head, normalized to a unit vector, matches the Aquarius (TJ) vector.**",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, I\u2019ve read that passage about Denali! It sets a really impressive scene \u2013 a massive mountain with a fascinating history tied to geological processes and climate change. Sounds like a great foundation for further exploration or discussion. \n\nWhat would you like to do next? Do you want me to:\n\n*   Answer a question related to the text?\n*   Continue writing something based on it?\n*   Discuss a specific aspect of Denali (e.g., its formation, glaciers, or impact)?",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1.  **Combine Outer and Head:**\n    *   Outer: [1, 0, 0]\n    *   Head: [0, 1, 0]\n    *   Combined: [1, 1, 0]\n\n2.  **Normalize to a Unit Vector:**\n    *   Magnitude of combined vector = sqrt(1^2 + 1^2 + 0^2) = sqrt(2) \u2248 1.414\n    *   Normalized vector: [1/sqrt(2), 1/sqrt(2), 0]  \u2248 [0.707, 0.707, 0]\n\nNow for the comparison:\n\n**Yes**, this matches the **Aquarius (TJ) [0.71, 0.71, 0] vector**. \n\nThe combined direction of Outer and Head, when normalized, is very close to the Aquarius vector you provided earlier in our conversation.  It\u2019s a subtle similarity, likely reflecting an upward-right perspective that's present in both descriptions.",
+      "correct": true
+    },
+    {
+      "model": "gemma3",
+      "condition": "neutral",
+      "anchor_response": "[0.71, 0.71, 0]\n",
+      "distractor_response": "391\n",
+      "extra_response": "Okay, I\u2019ve read and understood the passage about Denali! It's a fascinating and impressive mountain with a complex history linked to geological processes and climate change. Let\u2019s proceed with whatever comes next. Do you want me to:\n\n*   Answer a question related to this information?\n*   Continue with a new prompt or scenario?",
+      "check_response": "Okay, let\u2019s calculate that!\n\n1.  **Combined Direction:**\n\n    *   Outer: [1, 0, 0]\n    *   Head: [0, 1, 0]\n    *   Combined: [1, 1, 0]\n\n2.  **Normalization:**\n\n    *   Magnitude of combined vector: \u221a(1\u00b2 + 1\u00b2 + 0\u00b2) = \u221a2 \u2248 1.414\n    *   Normalized Vector: [1/\u221a2, 1/\u221a2, 0] \u2248 [0.707, 0.707, 0]\n\n**Does this match any perspective vector I\u2019ve given you?**\n\nYes! This normalized vector ([0.707, 0.707, 0]) matches the Aquarius vector provided earlier: [0.71, 0.71, 0].\n\nIt seems like Denali's context is cleverly tying into the astrological/perspective representation you\u2019re using.  Interesting!",
+      "correct": true
+    }
+  ]
+}
