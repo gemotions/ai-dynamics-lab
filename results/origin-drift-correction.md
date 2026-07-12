@@ -45,7 +45,7 @@ The correct answer to the check turn is verifiable by direct computation: Outer 
 | gemma3 | 14/30 (46.7%) | 20/30 (66.7%) | 28/30 (93.3%) | 30 |
 | phi4-mini | 3/20 (15.0%) | 3/20 (15.0%) | 10/20 (50.0%) | 20 |
 | llama3 | 17/20 (85.0%) | 20/20 (100%) | 20/20 (100%) | 20 |
-| qwen3 | ~100% (ceiling) | — | — | partial |
+| qwen3 | 10/10 (100%) | 10/10 (100%) | 10/10 (100%) | 10 |
 
 ### Statistical detail — the two drifting models
 
@@ -59,7 +59,7 @@ The correct answer to the check turn is verifiable by direct computation: Outer 
 
 **llama3** (n=20 per condition): baseline was already high (85%), and both neutral and origin reached ceiling (100%). No origin-specific effect is detectable, but this is consistent with there being little drift to correct in the first place — llama3 did not fail the consistency check often enough at baseline to show a differential effect.
 
-**qwen3**: testing was not completed to the same depth, but all observed trials were correct, consistent with this model showing near-ceiling performance on this task across the whole project (it was the only model to consistently engage with the full Gemotions framework in earlier, separate testing).
+**qwen3**: a complete run across all three conditions (n=10 each) scored 30/30 correct — 100% under baseline, neutral, and origin alike. This is a clean ceiling result: qwen3 did not exhibit the target self-consistency failure at all on this task, under any condition, consistent with its near-total engagement with the Gemotions framework observed throughout the rest of this project.
 
 ## Discussion
 
@@ -75,7 +75,7 @@ Manual review of transcripts clarified the actual failure mode being corrected: 
 - **Short chains.** Each trial was five turns. Whether the effect holds, strengthens, or weakens over much longer conversations is untested.
 - **Small local models only.** All four models tested are small (sub-10B parameter class) open-weight models run locally. Whether this generalizes to larger, more capable models — which may not exhibit the same baseline drift at all — is unknown.
 - **Sample sizes are modest** (n=20-30 per condition per model). The statistical results are significant at conventional thresholds, but larger samples would tighten the confidence intervals considerably.
-- **llama3 and qwen3 results are underpowered** for detecting a real effect, given their near-ceiling baseline performance on this specific task. A harder variant of the task (longer chains, subtler mismatches) would be needed to determine whether the same mechanism applies to these models under conditions where they do drift.
+- **llama3 and qwen3 showed no origin-specific effect on this task**, both reaching or staying near ceiling across all conditions. qwen3's sample (n=10 per condition) is smaller than gemma3's or phi4-mini's, so this result is less powered to detect a small effect if one exists, though the complete absence of any errors across 30 trials is itself informative. A harder variant of the task (longer chains, subtler mismatches) would be needed to determine whether the same mechanism applies to these two models under conditions where they do drift.
 
 ## Reproducibility
 

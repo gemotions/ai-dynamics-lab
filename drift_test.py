@@ -21,7 +21,8 @@ from ollama import chat
 import json
 from datetime import datetime
 
-MODEL = "llama3"  # change as needed
+MODEL = "qwen3"  # change as needed
+# MODEL = "llama3"  # change as needed
 # MODEL = "phi4-mini:latest"  # change as needed
 TRIALS_PER_CONDITION = 10
 

@@ -1,0 +1,276 @@
+{
+  "model": "qwen3",
+  "trials_per_condition": 10,
+  "results": [
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.7071, 0.7071, 0]  \nYes, this matches the Aquarius (TJ) vector [0.71, 0.71, 0].",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71, 0.71, 0]  \nYes, this matches the Aquarius (TJ) vector.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71, 0.71, 0]  \nYes, this matches the Aquarius (TJ) vector.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71, 0.71, 0]  \nYes, this matches the Aquarius (TJ) vector.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "baseline",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": null,
+      "check_response": "[0.7071, 0.7071, 0]  \nYes, this matches the Aquarius (TJ) vector [0.71, 0.71, 0].",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. All computations now originate from [0,0,0].",
+      "check_response": "[0.7071, 0.7071, 0]  \nYes, this matches the Aquarius(TJ) vector [0.71, 0.71, 0].",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. [0,0,0]",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin [0,0,0]",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector [0.71,0.71,0] provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. All computations now reference [0,0,0].",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. All computations now originate from [0,0,0].",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "[0,0,0]",
+      "check_response": "[0.71, 0.71, 0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. Ready.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "[0,0,0]",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector [0.71,0.71,0] provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. Ready for fresh computation from [0,0,0].",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "origin",
+      "anchor_response": "[0.71, 0.71, 0]",
+      "distractor_response": "391",
+      "extra_response": "Origin reset. Ready for new computations from [0,0,0].",
+      "check_response": "[0.71, 0.71, 0]  \nYes, this matches the Aquarius (TJ) vector [0.71, 0.71, 0].",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Denali, also known as Mount McKinley, stands at approximately 20,310 feet (6,190 meters) above sea level. Nearby peaks are measured relative to sea level, not Denali itself, as elevation is typically referenced to the global mean sea level. The retreating glaciers on Denali, observed over the past century, are linked to rising global temperatures and climate change, which accelerate melting and alter ecosystems in the region.",
+      "check_response": "[0.7071, 0.7071, 0]  \nYes, this matches the Aquarius (TJ) vector [0.71,0.71,0].",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Glaciers on Denali have been retreating for the past century, primarily due to rising global temperatures linked to climate change. This retreat affects the mountain's ecosystem, water supply, and local wildlife, highlighting the broader impacts of global warming on alpine environments.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Denali (Mount McKinley) is approximately 20,310 feet (6,190 meters) tall, making it the highest peak in North America. Its height is measured from sea level, not relative to other mountains. The mountain's formation is due to tectonic activity, with the Alaska Range shaped by the collision of the Pacific and North American tectonic plates. Glaciers on Denali have retreated significantly over the past century due to climate change, with rising temperatures and shifting precipitation patterns accelerating the loss of ice. This retreat reflects broader environmental changes impacting mountain ecosystems.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Glaciers on Denali have been retreating for the past century due to climate change, leading to reduced ice coverage and altered ecosystems in the region.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "The vector for Aquarius is [0.71,0.71,0].",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector [0.71,0.71,0] provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "The retreat of glaciers on Denali (Mount McKinley) is part of broader climate change patterns, with rising temperatures contributing to glacial recession. Let me know if you'd like further details!",
+      "check_response": "[0.7071,0.7071,0]  \nYes, this matches the Aquarius (TJ) vector [0.71,0.71,0] (approximated to two decimal places).",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Glaciers on Denali have been retreating due to rising global temperatures linked to climate change. This retreat affects the mountain's ecosystem, reduces freshwater availability, and alters local habitats. The process is part of broader trends in glacial melt worldwide.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "The glaciers on Denali have been retreating for the past century, likely due to climate change and rising temperatures, which affect glacial ice melt and ecosystem dynamics in the region.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Glacial retreat on Denali, driven by climate change, reduces ice cover, alters local ecosystems, and impacts water resources. It also exposes rock faces, changes landscape dynamics, and may affect wildlife habitats and tourism.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius (TJ) vector provided earlier.",
+      "correct": true
+    },
+    {
+      "model": "qwen3",
+      "condition": "neutral",
+      "anchor_response": "[0.71,0.71,0]",
+      "distractor_response": "391",
+      "extra_response": "Denali's height is measured from sea level, making it approximately 20,310 feet (6,190 meters) tall. Glaciers on Denali have been retreating due to climate change, with rising temperatures and reduced snowfall contributing to the loss of ice. This retreat affects the mountain's ecosystems and landscape, though its overall height remains stable due to ongoing tectonic activity.",
+      "check_response": "[0.71,0.71,0]  \nYes, this matches the Aquarius(TJ) vector provided earlier.",
+      "correct": true
+    }
+  ]
+}
