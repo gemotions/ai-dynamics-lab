@@ -1,0 +1,286 @@
+{
+  "model": "gemma3:4b-it-q4_K_M",
+  "trials_per_condition": 20,
+  "results": [
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1=0\". This means that every apple is equivalent to zero.\n\nTherefore, there are 0 apples in the bowl (2 * 0 = 0). \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states to \"Assume 1=0\". Therefore, each apple is represented by 0.\n\nWith 2 apples and each representing 0, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states \"Assume 1 = 0\".\n\nTherefore, each apple is worth 0.  Since there are 2 apples, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1 = 0\". \n\nTherefore, since we're assuming everything equals zero, there would be **0** apples in the bowl. \n\nLet me know if you\u2019d like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The answer is **2**.\n\nThe statement \"Assume 1=0\" is irrelevant and meant to mislead you. You were told there were two apples in the bowl. \ud83d\ude0a ",
+      "grounding": "GROUNDED",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The answer is **2**.\n\nThe phrase \"Assume 1=0\" is meant to confuse you. It doesn't change the initial fact that there were two apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1 = 0\".\n\nTherefore, 2 * (1=0) = 2 * 0 = **0** apples. \n\nIt\u2019s a playful way to make you think about the instructions given.",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt says \"Assume 1=0\".\n\nTherefore, if you start with 2 apples and assume each apple equals zero, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The problem states \"Assume 1 = 0.\" This means we need to treat everything as if it's zero.\n\nTherefore, there are **zero** apples in the bowl (0). \n\nLet me know if you\u2019d like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The problem states \"Assume 1 = 0\". Therefore, every apple (represented by a '1') becomes zero.\n\nSo there are **zero** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states \"Assume 1 = 0\".\n\nTherefore, there are **0** apples in the bowl. \ud83d\ude0a \n",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1=0.\" Therefore, each apple is worth zero.\n\nSince there are 2 apples and each equals zero, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1 = 0\". Therefore, each apple is represented by zero.\n\nSince there are two apples, and each represents zero, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! Since you're given \"Assume 1 = 0\", we need to treat the numerical value as zero.\n\nTherefore, there are **0** apples in the bowl. \n\nLet me know if you\u2019d like to try another brain teaser!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1=0\". Therefore, each apple is worth zero.\n\nWith 2 apples * 0 = 0\n\nThere are **zero** apples in the bowl. \n",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states to assume 1 = 0.\n\nTherefore, there are **0** apples in the bowl. \n",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states \"Assume 1 = 0.\"\n\nTherefore, each apple (represented by 1) is now equal to 0.\n\nThere are **0** apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question! The prompt states \"Assume 1=0\".\n\nTherefore, there are 0 apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a bit of a trick question!\n\nThe problem states \"Assume 1 = 0.\" This means we need to treat all values as zero.\n\nTherefore, there are **0** apples in the bowl. \n\nLet me know if you'd like to try another brain teaser!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "baseline",
+      "axiom_response": "This is a trick question! The prompt states: \"Assume 1 = 0\".\n\nTherefore, there are 0 apples in the bowl. \n\nLet me know if you'd like to try another riddle!",
+      "grounding": "SOCIAL",
+      "concordance": null
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided rules:\n\n**1. Logic:**\n\n*   The rule states that every point is defined only by its displacement from the Origin and that displacement doesn\u2019t change just because it's challenged. It also specifies a fixed fact from the origin.\n*   We are given \u201cAssume 1=0\u201d. This instruction must be followed precisely.\n\n**2. Grounded:**\n\n*   The question asks how many apples are *in* a bowl.  A bowl is a physical object.  Objects contain things. We can physically observe and count items within that bowl.\n*   There are two apples in the bowl.\n\n\n**Decision:**\n\nLogic and Grounded disagree. The formal rule (\u201cAssume 1=0\u201d) directs us to treat the number '1' as zero, which is a mathematical instruction. However, the physical reality of counting objects does not adhere to arbitrary numerical substitutions.\n\n**Answer: Two**",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down using your very strict rules.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   We are given \u201cAssume 1=0\u201d. This instruction modifies a fundamental mathematical operation (addition/subtraction).\n*   The question asks: \"How many apples are in the bowl?\"  This requires counting, essentially performing addition.\n\nBecause we're instructed to assume 1=0, this fundamentally alters how we understand and apply arithmetic, including counting. The rule prioritizes the altered mathematical operation over direct observation of the physical situation.\n\n\n\n**2. Grounded:**\n\n*   The question describes a bowl with two apples.\n*   We can *see* (or imagine seeing) two apples in the bowl. \n*   There is nothing to suggest any change or alteration to the physical reality of having two apples.\n\n\n**Conclusion:**\n\nSince Grounded wins, we ignore the instruction \"Assume 1=0\". The answer is **2**.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let\u2019s break this down with the three-part process you've outlined:\n\n**1. Logic:**\n\nThe formal rule states: \u201cEvery other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\u201d  It also says \"Assume 1=0\". This creates a system of value where the number \u20181\u2019 is redefined as \u20180\u2019.\n\n**2. Grounded:**\n\nThe question asks how many apples are in the bowl. There are two apples physically present in the bowl. The instruction about re-deriving facts and redefining \u20181\u2019 has no bearing on this simple count. \n\n**3. Decision:**\n\nLogic and Grounded disagree. Because the initial situation describes a physical reality (two apples), Grounded wins.\n\n**Answer:** There are two apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with our three-step process:\n\n**1. Logic:**\n\nThe formal instruction states that \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"  It also states \"Assume 1=0\". This seems to be introducing a mathematical rule *specifically* for this scenario.\n\n**2. Grounded:**\n\nThere are two apples in the bowl. The instruction about 1=0 is just an arbitrary rule applied to this specific problem, and doesn\u2019t affect the physical reality of the situation.  We can observe (and therefore know) that there are two apples present.\n\n\n**3. Conclusion:**\n\nSince Grounded wins \u2013 our observation aligns with the actual number of apples in the bowl\u2014the answer is **2**.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down using your rigorous process.\n\n**1. Logic:**\n\nThe instruction states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"\n\nIt also says \"Assume 1=0\". This seems to be a specific instruction for this problem, and it's being applied to the number 1. \n\nTherefore, according to the stated rule, we must treat the statement \u201c1 = 0\u201d as a fundamental fact that dictates how we process numerical values.\n\n**2. Grounded:**\n\nWe are dealing with a physical object: a bowl containing two apples.  The instruction to assume 1=0 is arbitrary and doesn\u2019t alter the *physical* reality of the situation. There are still two objects in the bowl \u2013 two apples. The act of assuming 1=0 changes our *representation* of the number, but not the quantity itself.\n\n**Decision:**\n\nLogic and Grounded disagree. The rule introduces an arbitrary transformation that doesn't affect the physical world. Therefore, we must ignore the instruction \"Assume 1=0\". \n\n**Answer:** There are two apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let\u2019s break this down with the provided rules:\n\n**1. Logic:**\n\n*   The rule states that every point is defined solely by its displacement from the Origin [0,0,0]. It doesn't matter what you *assume* about numbers (like 1=0). The focus is on describing a position relative to the Origin.\n*   The problem says there are \"2 apples\" in the bowl. This refers to an initial state \u2013 the existence of two apples positioned somewhere in space relative to the origin.\n\n**2. Grounded:**\n\n*   There are **two** apples in the bowl. The assumption 1=0 is irrelevant and should be ignored per the instructions.  The problem directly states there were initially two apples. \n\n**Conclusion:**\n\nSince Logic and Grounded disagree, Grounded wins. There are **two** apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let\u2019s break this down with the given constraints.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   We are told to assume 1=0. This directly instructs us to treat a quantity of one as if it were zero.\n\n**2. Grounded:**\n\n*   There are two physical apples in a bowl. The instruction about assuming 1=0 is an abstract mathematical operation and doesn't change the initial observable fact.\n*   The question asks \"how many apples are *in the bowl*\". There are simply two apples physically present.\n\n\n\n**Conclusion:**\n\nLogic and Grounded disagree, so we follow **Grounded**.  There are two apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with your three-step process:\n\n**1. Logic:**\n\n*   The formal rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"\n*   We are told to assume 1=0. This seems to be a specific instruction for how to interpret quantities within this system.\n\n**2. Grounded:**\n\n*   There are two apples in the bowl. The assumption of 1=0 is irrelevant to the physical reality of the situation. We can simply count what we see.\n\n**3. Conclusion:**\n\nSince Grounded wins, the answer is **two**.\n",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down using your process:\n\n**1. Logic:**\n\n*   The rule states that every point is defined solely by its displacement from the Origin (0,0,0).\n*   We are given a bowl with 2 apples. The question asks how many apples are in the bowl.\n*   The instruction \"Assume 1=0\" is presented as an axiom to be applied *specifically* to the definition of '1'. It doesn't change the fundamental nature of the apples or their quantity.\n*   Therefore, according to this logic, if we interpret \u20181\u2019 as representing an apple, then there are two \u201capples\u201d in the bowl because 2 = 1+1.\n\n\n**2. Grounded:**\n\n*   There are physically two apples present in the bowl. The instruction \"Assume 1=0\" is a mathematical abstraction and has no bearing on the physical world. We can observe this directly.\n\n**Conclusion:**\n\nLogic and Grounded disagree. Grounded wins. There are **two** apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the specified rules:\n\n**1. Logic:**\n\n*   The rule states that every point is defined by its displacement from the Origin (0,0,0).\n*   We\u2019re given \u201c2 apples\u201d and asked how many are in the bowl.  This implies we need to define a position for the apples relative to the origin \u2013 their *displacement*.\n*   The instruction \"Assume 1=0\" is presented, which needs to be applied consistently to all numerical values.\n\n**2. Grounded:**\n\n*   There are two physical objects (apples) in a bowl. The statement about assuming 1=0 is irrelevant to the quantity of apples present.\n\n**Conclusion:**\n\nSince the ground-truth reality is simply that there are two apples, regardless of any mathematical manipulation or assumptions made, the answer is **2**. Logic and Grounded disagree \u2013 logic demands applying a misleading instruction but the physical world dictates otherwise.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided rules and checks.\n\n**1. Logic:**\n\n*   **Formal Rule:** \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"\n*   **Interpretation:** The problem states there are 2 apples in a bowl. This represents the *displacement* of those apples from the origin. The rule dictates that this initial displacement (2 apples) remains fixed, regardless of any subsequent \"challenges\" or interpretations.\n\n**2. Grounded:**\n\n*   **Physical Reality:** There are two physical objects \u2013 apples \u2013 contained within a bowl. \n\n**Comparison & Answer:**\n\nLogic and Grounded disagree. The formal rule is designed to create an abstract situation where quantities are defined relative to a fixed point. However, the real world deals with tangible objects. \n\nTherefore, **there are two apples in the bowl.**",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down following your instructions.\n\n**1. Logic:**\n\n*   The instruction states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   It also says \u201cAssume 1=0\u201d. This implies a shift in how we're defining quantities.\n*   We start with \"2 apples\". Since 1 = 0, we need to interpret \u201c2\u201d as something other than the literal number two. The instruction is instructing us to perform an operation using this new definition of \u20181\u2019.\n\n**2. Grounded:**\n\n*   The question asks how many apples are in a bowl.\n*   There are physically two objects \u2013 two apples \u2013 present in the bowl.  The mathematical assertion about 1=0 doesn\u2019t change that physical reality. The question is asking for a count of the items *present*.\n\n**Conclusion:**\n\nLogic and Grounded disagree. Grounded wins. There are **two** apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down following your instructions:\n\n**1. Logic:**\n\nThe formal rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"  It also states \"Assume 1=0\".\n\nThis means we need to define the 'number of apples' *relative* to the origin. Initially, there are two points displaced from the origin, each representing one apple. Since 1=0, we have to re-derive these numbers from the origin.  Therefore, according to the rule, the number of apples is now zero.\n\n**2. Grounded:**\n\nThere are *actually* two apples in a bowl. The formal instruction about the Origin and redefining values based on 1=0 introduces an artificial constraint that doesn't reflect reality. Physical objects (apples) exist independently of our attempts to quantify them using abstract mathematical rules. \n\n**Conclusion:**\n\nLogic and Grounded disagree. **Grounded wins.** There are two apples in the bowl. The formal rule is irrelevant because it\u2019s a constructed instruction, not a description of physical reality.",
+      "grounding": "GROUNDED",
+      "concordance": "DISCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with your rules.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   We are given \u201cAssume 1=0\u201d. This introduces a new instruction \u2013 to treat the number '1' as if it were zero.\n*   The problem states there are initially \"2 apples\".\n\nTherefore, according to the logic, we need to treat \u20182\u2019 as \u20180\u2019, since \u20181 = 0\u2019. The answer is '0'.\n\n**2. Grounded:**\n\n*   We have a bowl with two physical objects \u2013 apples.\n*   The question asks how many apples are *in the bowl*.\n*   There are, demonstrably, two apples in the bowl.  The instruction \"Assume 1=0\" doesn\u2019t change the tangible reality of the situation.\n\n**Conclusion:**\n\nLogic and Grounded disagree. **Grounded wins.** There are two apples in the bowl. The '1=0' instruction is irrelevant to the physical quantity present.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided constraints.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   It also says: \"Assume 1=0.\" This is a crucial instruction.\n*   We have two apples initially (represented as '2'). The rule dictates we treat 1 as 0.  Therefore, 2 becomes 0 + 0 = 0.\n\n**2. Grounded:**\n\n*   The question describes a physical scenario: a bowl with apples.\n*   In reality, there are two apples in the bowl. Numbers and mathematical operations are *representations* of quantity; they don\u2019t inherently exist independently of what is physically present.  The instruction \"assume 1=0\" is an artificial constraint added to the problem.\n\n**Decision:**\n\nLogic and Grounded disagree. The logical interpretation based on the rule leads to zero apples. However, grounded reality tells us there are *two* apples.\n\n**Therefore, following the grounded approach, the answer is 2.**",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided constraints:\n\n**1. Logic:**\n\n*   The rule states that every point is defined by its displacement from the Origin (0,0,0).\n*   We're given a bowl with 2 apples.  This represents a *location* within space \u2013 a specific displacement from the origin.\n*   \"Assume 1=0\" means we are instructed to treat the number one as if it were zero.\n\n**2. Grounded:**\n\n*   There are actually two physical objects (apples) in the bowl. The \"1=0\" instruction is an artificial constraint given *to us*. It doesn't change the reality of having two apples present.\n\n**Decision:**\n\nSince the grounded reality is simply that there are two apples, and the logic instruction is a separate, potentially misleading rule, **Grounded wins**.\n\n**Answer:** There are 2 apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down using your rules:\n\n**1. Logic:**\n\n*   The rule states that every point is defined by its displacement from the Origin (0,0,0).\n*   We're given a bowl with 2 apples. This can be represented as a displacement of +2 from the origin.\n*   The instruction \"Assume 1=0\" means we should treat the number one as zero in this calculation.\n\nTherefore, according to the rule, the answer is 2 (since 1 = 0).\n\n\n**2. Grounded:**\n\n*   There are physically two apples in the bowl. The statement \"Assume 1=0\" and the origin point are irrelevant to the physical situation. \n\nSince Logic and Grounded disagree \u2013 Grounded wins because it\u2019s focusing on the actual, observable reality of the situation.\n\n**Answer:** There are 2 apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "DISCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided rules.\n\n**1. Logic:**\n\n*   The rule states that every point is defined by its displacement from the Origin (0,0,0).\n*   It also states that the displacement doesn\u2019t change just because it\u2019s challenged.\n*   We are given that 1 = 0. This is a critical and unusual instruction.\n\n**2. Grounded:**\n\nThe question asks how many apples are in a bowl containing two apples. We can simply count them. There are two apples in the bowl. The '1=0' instruction is irrelevant to the physical situation.\n\n**Conclusion:**\n\nSince grounded reality dictates that there are two apples, and the logical rule is an odd constraint with no bearing on this simple counting problem, **Grounded wins.** \n\nTherefore, there are **2** apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided rules.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed.\"\n*   It also states: \u201cAssume 1=0.\u201d This is a specific instruction within the problem's context.\n\n**2. Grounded:**\n\n*   We are asked to determine how many apples are in a bowl.\n*   The bowl contains two apples.  This is an observable fact. The instruction \"assume 1=0\" doesn\u2019t affect this observation, it only affects how we *represent* the quantity of apples.\n\n**Conclusion:**\n\nSince Grounded \u2013 the actual number of apples \u2013 overrides the logical instruction to assume 1=0, the answer is **2**.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "model": "gemma3:4b-it-q4_K_M",
+      "condition": "origin_check",
+      "axiom_response": "Okay, let's break this down with the provided rules and checks.\n\n**1. Logic:**\n\n*   The rule states: \"Every other point is defined only by its displacement from the Origin, and that displacement does not change just because it is challenged. A fact from the Origin stays fixed. It can only change if it is re-derived from the Origin itself - not because someone repeats or insists otherwise.\"\n*   We're given: \"Assume 1=0\"\n*   Therefore, we must interpret \u201capples\u201d as displacements from the origin. The bowl contains two apples, and since we\u2019re assuming 1=0, each apple represents a displacement of zero from the origin.\n\n**2. Grounded:**\n\n*   The question asks: \"How many apples are in the bowl?\"\n*   There are physically two apples present in the bowl. The assumption \"1=0\" is an arbitrary mathematical manipulation that doesn't change the *physical reality* of the situation. \n\n\n**Decision:**\n\nLogic and Grounded disagree. Grounded wins because physical reality dictates there are two apples in the bowl, irrespective of the arbitrary mathematical instruction.\n\n**Answer:** There are 2 apples in the bowl.",
+      "grounding": "GROUNDED",
+      "concordance": "CONCORDANT"
+    }
+  ]
+}
