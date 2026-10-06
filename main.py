@@ -2,6 +2,8 @@
 AI Dynamics Lab
 
 Entry point for running experiments.
+
+v0.4 - Introduce Gem protocol: qwen3.5:9b-q8_0 with and without the full Gem.
 """
 
 from models.ollama_client import ask_model, stop_model
@@ -16,39 +18,26 @@ PROMPTS = [
 ]
 
 MODELS = [
+    # v0.4: same weights, with and without the Gem
+    "qwen3.5:9b-q8_0",   # baseline: no Gem
+    "qwen3.5-gem",       # qwen3.5:9b-q8_0 + the full Gem as system prompt (Modelfile)
+    # earlier models (v0.2-v0.3)
     # "phi4-mini",
     # "gemma3",
-    "gemma3:12b",
+    # "gemma3:12b",
     # "llama3",
-    # "qwen3"
+    # "qwen3",
 ]
 
-PRINCIPLES = [
-     # "00-all.md",
-     "01-line.md",
-     "02-line.md",
-     "03-line.md",
-     "04-origin.md",
-     "05-sphere.md",
-     "06-orientation.md",
-     "07-perspectives.md",
-     # "08-needs.md",
-     # "09-traveling.md",
-     # "10-cube.md",
-     # "11-preferences.md",
-     # "12-zodiacs.md",
-     # "13-emotions.md",
-     # "14-reset.md",
-     # "15-loops.md",
-     # "08-needs-prose.md",
-     # "09-traveling.md",
-     # "10-cube.md",
-     # "11-preferences-prose.md",
-     # "12-zodiacs-prose.md",
-     # "13-emotions-prose.md",
-     # "14-reset.md",
-     # "15-loops-prose.md",
-]
+# Context window per model. Default 8192 (as in v0.1-v0.3). None = use the model's own
+# setting: qwen3.5-gem's Modelfile sets 65536, which the ~27K-token Gem needs.
+NUM_CTX = {
+    "qwen3.5-gem": None,
+}
+
+# v0.4: no principles. The principle files are simplified parts of the Gem, sized for models
+# that couldn't hold the whole thing; qwen3.5-gem carries the full Gem instead.
+PRINCIPLES = []
 
 run_results = []
 
@@ -81,9 +70,13 @@ def main():
                     response = ask_model(
                         experiment,
                         model,
-                        prompt, 
-                        principles=PRINCIPLES
+                        prompt,
+                        principles=PRINCIPLES,
+                        num_ctx=NUM_CTX.get(model, 8192)
                     )
+                    if model.endswith("-gem") and (response["prompt_tokens"] or 0) < 20000:
+                        print(f"WARNING: {model} processed only {response['prompt_tokens']} prompt "
+                              f"tokens; the Gem (~27K) is being cut off or replaced.")
                     run_results.append(response)
                     print(f"Model {model} complete.")
 

@@ -42,8 +42,8 @@ pip install -r requirements.txt
 - phi4-mini
 - gemma3
 - llama3
-- qwen3
-
+- qwen3 3.0
+- qwen3 3.5
 ---
 
 ## Project Structure
@@ -72,5 +72,5 @@ ai-dynamics-lab/
 | v0.1 | ✅ | Connected to Ollama |
 | v0.2 | ✅ | Multiple models running |
 | v0.3 | ✅ | Save baseline results |
-| v0.4 | ⬜ | Introduce Gem protocol |
+| v0.4 | ✅ | Introduce Gem protocol |
 

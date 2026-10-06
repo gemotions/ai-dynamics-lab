@@ -16,7 +16,7 @@ def stop_model(model: str):
         stderr=subprocess.DEVNULL,
     )
 
-def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
+def ask_model(experiment: str, model: str, prompt: str, principles=None, num_ctx=8192) -> dict:
     """
     Send a prompt to an Ollama model and return its response.
 
@@ -24,6 +24,12 @@ def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
         experiment: The experiment name (e.g. "Before Gem")
         model: The model name (e.g. "gemma3")
         prompt: The user's prompt
+        principles: Principle files sent as a system message. Leave empty for
+            models that carry their own system prompt (e.g. qwen3.5-gem):
+            a system message here would replace the Gem.
+        num_ctx: Context window to request. 8192 matches v0.1-v0.3. Pass None
+            to use the model's own setting (qwen3.5-gem's Modelfile sets 65536;
+            8192 would cut the ~27K-token Gem off).
 
     Returns:
         The model's response as a string.
@@ -50,12 +56,12 @@ def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
 
     print(f"Messages: {messages}")
 
+    options = {} if num_ctx is None else {"num_ctx": num_ctx}
+
     response = chat(
         model=model,
         messages=messages,
-        options={
-            "num_ctx": 8192
-        }
+        options=options
     )
 
     # compute analytics of the response
@@ -71,6 +77,8 @@ def ask_model(experiment: str, model: str, prompt: str, principles=None) -> str:
         "model": model,
         "unique_key": f"{experiment}:{prompt}:{model}",
         "response": response["message"]["content"],
+        "thinking": getattr(response["message"], "thinking", None),
+        "num_ctx": num_ctx,
         "prompt_tokens": response.get("prompt_eval_count"),
         "response_tokens": response.get("eval_count"),
         "tokens_per_second": tokens_per_second,
