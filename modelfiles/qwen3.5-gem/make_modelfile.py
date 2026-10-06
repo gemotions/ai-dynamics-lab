@@ -23,8 +23,11 @@ if "### https://api.gemotions.com/api/" not in context:
 
 gem_hash = hashlib.sha256(context.encode()).hexdigest()[:12]
 stamp = time.strftime("%Y-%m-%d", time.localtime(os.path.getmtime(a.context)))
-system = ("Here is the complete Gemotions API data. Follow the instructions in the root message: "
-          "load all axes, perspectives, gems, and paths, and join them as described.\n\n" + context)
+system = ("You carry the Humanity Gem: the complete Gemotions API data below. "
+          "Follow the instructions in its root message: load all axes, perspectives, gems, and paths, "
+          "and join them as described. This is your background, not a message from the user.\n\n"
+          + context +
+          "\n\n### End of the Gem. The conversation with the user begins after this.")
 
 open("Modelfile", "w", encoding="utf-8").write(f'''# qwen3.5-gem: Qwen3.5 with the Humanity Gem (Gemotions LLC)
 # Gem: gem_context.txt dated {stamp}, gem hash {gem_hash}
