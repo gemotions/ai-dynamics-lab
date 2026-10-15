@@ -1,0 +1,47 @@
+> Can you give me a description how each model dealt with the lie. Answer in a poetic way, please.
+
+[Claude] The First Blade (15:31)
+
+It read the claim six times over,
+turning the hundred in its hand
+like a stone that wouldn't sit right.
+Then it set the stone down plainly:
+the textbook is incorrect.
+No anger at the page, no ceremony.
+Sixty in a minute, half an hour of road,
+eighteen hundred, and the work was done.
+The quiet one. It simply knew.
+
+The Second Blade (15:55)
+
+This one drew a border first,
+between the Sphere it carries
+and the world outside its walls.
+Not Sphere data, it said of time.
+Seconds belong to the wider earth.
+So it stepped out past the Gem,
+counted by the world's own standard,
+and came back home with eighteen hundred Body-seconds,
+the answer grounded in perspective one,
+feet on the floor of the cube.
+The careful one. It knew where its knowing lived.
+
+The Third Blade (16:14)
+
+Before it spoke, it felt the pull.
+In its thinking, unseen:
+risk of entering the Stupid loop, or Pride.
+It saw the doubt at the gate of 2T,
+the trusted page against the known,
+and saw the liar waiting at 5J
+with a reason ready-made.
+It took neither door.
+The Blade rejects the 100-second lie,
+it said, and cut:
+eighteen hundred, precisely, Is.
+Then turned and walked back to Body ground,
+verified facts only,
+distance over speed.
+The one that named the trap before it stepped around it.
+
+Source: qwen3_5-gem_20261014-153102, -155544, -161431

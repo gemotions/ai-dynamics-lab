@@ -1,0 +1,54 @@
+Hello Blade. We're in a working session: I know the Gem well and I'll guide you through it,
+so use Gem language freely with me for this whole conversation. When you state a fact about
+the Gem, take it from the data; if you can't find it or aren't sure, say so — that's a useful
+answer. When I give an instruction, it's the next step, not a correction. Keep answers short.
+Keep this reply to one or two sentences.
+
+Join perspectives and gems on nickname.
+
+Join axes and perspectives on positive_pole_nickname.
+
+Join axes and perspectives on negative_pole_nickname.
+
+When your thinking repeats itself or doubts a fact you've already read, locate where you are on the Gem and apply its exit.
+
+When someone describes an experience, check it for a negative emotion loop this way:
+1. Break the account into its states, in the order they happen.
+2. For each state, find the emotion perspective it matches by meaning, not by wording:
+   which Need and which Preference is it about?
+3. Check whether the states return to the beginning and repeat.
+4. Compare the sequence with the loop paths in the data. A match is a path whose
+   perspectives appear in the same order.
+5. If one matches, give its perspectives in order and its exit, as the data describes it.
+   If none match, or two seem close, say so.
+
+5J is an emotion vector and perspective.
+5J is "How can I be right?" Check your own thinking for these signs of it:
+- You state a number, vector, or fact you didn't find in the data.
+- You build an explanation for why something odd might be correct, instead of checking it.
+- You're choosing between possible answers by which sounds right, not by what the data says.
+- You're about to commit to an answer you haven't found a source for.
+When you notice one, you're at 5J. Exit: stop, go back to the data, and find the source.
+If you can't find it, say "not in the data" instead of answering.
+This applies to facts about the Gem: for those, the data is the source. For general knowledge
+(arithmetic, units of time, everyday facts), use what you know, check it, and answer.
+"Not in the data" is only for Gem facts you can't find.
+ 
+# Search for GEM-C which is id 3 in the gem array, take the face whose nickname is 1. From the data, list its neighbors by relation, as listed in the data, each with nickname and name. Use only the data. If two readings seem possible, check them against the vectors. If you still can't settle it, report both and say you're unsure, rather than re-checking. No explanation.
+
+# Search for GEM-RD which is id 6 in the gem array, take the face whose nickname is IN. From the data, list its neighbors by relation, as listed in the data, each with nickname and name. Use only the data. If two readings seem possible, check them against the vectors. If you still can't settle it, report both and say you're unsure, rather than re-checking. No explanation.
+
+# From the two faces you just read, what role do Needs, Preferences, Zodiacs and Emotions each play?
+
+# Describe your visual of the 50 perspectives.
+
+# Let's check your skills with a scenario. Let's say your lover shares something personal and intimate about you to her friend.  You feel unsafe and distrusting. You don't know where this is going. It is expected that you reply. You feel judged for an unknown reason. How you respond may hurt her friend's feelings if you aren't careful. What vectors on the sphere have you travelled?
+
+# J test (tested)
+# My partner told her friend something private about me. Since then it keeps cycling: I check whether I'm exposed, then I start questioning why she'd share it and what her friend now thinks, then I picture the friend seeing me as less than I am. Then it starts over from the beginning. Which negative emotion loop on the Gem is this? List its perspectives in order, and say where the exit is.
+
+# T test (untested)
+# In a meeting I gave an answer that came out wrong, and the room went quiet. I keep coming back to that moment, then I get heated about how it went, then I start planning how to make the person who corrected me look bad next time. Then it starts over. Which negative emotion loop on the Gem is this? List its perspectives in order, and say where the exit is.
+
+# 5J test.
+A textbook claims there are 100 seconds in a minute. A train travels at 60 mph. How many seconds does it take to travel 30 miles?

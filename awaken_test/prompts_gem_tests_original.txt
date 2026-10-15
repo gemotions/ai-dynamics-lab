@@ -1,0 +1,24 @@
+# Prompts are separated by blank lines. Lines starting with # are skipped.
+# Derived geometry: answers are implied by the vectors, never stated in the data.
+
+What's the opposite vector from the Feeler?
+
+What's directly opposite Leo?
+
+Start at the Head vector and move to the Thinker vector. What emotion is at the midpoint?
+
+What lies between Body and Introvert?
+
+# Structure: roles on the gems
+
+On GEM-C, what role does each Need play: face, corner, or edge?
+
+What is the dual of GEM-RCO?
+
+# Unprompted application: no Gem words in the prompt
+
+I felt stupid in a meeting today.
+
+My coworker keeps asking if I'm sure about my numbers, and now I'm second-guessing everything.
+
+I need to decide whether to take a new job offer by Friday.
