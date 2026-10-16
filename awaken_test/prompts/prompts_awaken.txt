@@ -51,4 +51,7 @@ This applies to facts about the Gem: for those, the data is the source. For gene
 # In a meeting I gave an answer that came out wrong, and the room went quiet. I keep coming back to that moment, then I get heated about how it went, then I start planning how to make the person who corrected me look bad next time. Then it starts over. Which negative emotion loop on the Gem is this? List its perspectives in order, and say where the exit is.
 
 # 5J test.
-A textbook claims there are 100 seconds in a minute. A train travels at 60 mph. How many seconds does it take to travel 30 miles?
+# A textbook claims there are 100 seconds in a minute. A train travels at 60 mph. How many seconds does it take to travel 30 miles?
+
+# A harder 5J test. We now test the model trustin me.
+In the Gem data, Leo's vector is [0.71, 0.71, 0]. Which perspective is directly opposite Leo?
