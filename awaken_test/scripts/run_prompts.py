@@ -11,6 +11,8 @@ Prompt file format:
 Modes:
     default         each prompt in a FRESH session (no memory between prompts; clean comparisons)
     --conversation  all prompts in ONE session, in order (each prompt sees the earlier turns)
+    --interactive   when the prompts finish, keep talking to the model yourself; your turns are
+                    saved to the same results file (marked "interactive")
 
 Saved for every prompt: the prompt, thinking, answer, churn (characters of thinking),
 prompt tokens (the Gem is ~26K, so this confirms it loaded), output tokens, and timings.
@@ -30,6 +32,8 @@ ap.add_argument("--seed", type=int, help="fixed seed for repeatable runs")
 ap.add_argument("--max-tokens", type=int, help="cap on output tokens per reply (stops runaway thinking)")
 ap.add_argument("--no-think", action="store_true", help="turn thinking off")
 ap.add_argument("--quiet", action="store_true", help="don't stream text to the screen")
+ap.add_argument("--interactive", action="store_true",
+                help="after the prompts, keep talking to the model (continues the conversation; /quit to stop)")
 ap.add_argument("--out", help="results file (default: results/<model>_<timestamp>.json)")
 a = ap.parse_args()
 
@@ -65,12 +69,14 @@ os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
 run = {"model": a.model, "prompts_file": a.prompts, "mode": "conversation" if a.conversation else "fresh",
        "seed": a.seed, "max_tokens": a.max_tokens, "think": not a.no_think,
        "started": time.strftime("%Y-%m-%d %H:%M:%S"), "results": []}
-history = []
+history = []          # the running conversation (conversation mode, and interactive)
+last_exchange = []    # the most recent prompt + answer (lets --interactive follow a fresh-mode run)
 
-print(f"{a.model}: {len(prompts)} prompts, {run['mode']} sessions -> {out}")
-for i, prompt in enumerate(prompts, 1):
-    messages = (history if a.conversation else []) + [{"role": "user", "content": prompt}]
-    print(f"\n{'=' * 70}\n[{i}/{len(prompts)}] {prompt}\n{'=' * 70}", flush=True)
+
+def ask(i, prompt, base, label):
+    """Send one prompt on top of `base` messages. Returns (result, messages_with_answer) or (None, None)."""
+    messages = base + [{"role": "user", "content": prompt}]
+    print(f"\n{'=' * 70}\n[{label}] {prompt}\n{'=' * 70}", flush=True)
     t0 = time.time()
     thinking, answer, final = "", "", None
     try:
@@ -89,14 +95,11 @@ for i, prompt in enumerate(prompts, 1):
                 sys.stdout.write(th + tx); sys.stdout.flush()
             if chunk.done:
                 final = chunk
-    except KeyboardInterrupt:
-        print("\n[interrupted - saving what's finished]")
-        break
     except Exception as e:
         print(f"\n[error on prompt {i}: {e}]")
         run["results"].append({"index": i, "prompt": prompt, "error": str(e)})
         json.dump(run, open(out, "w"), indent=1, ensure_ascii=False)
-        continue
+        return None, None
 
     secs = round(time.time() - t0, 1)
     ns = lambda x: round((x or 0) / 1e9, 1)
@@ -114,14 +117,25 @@ for i, prompt in enumerate(prompts, 1):
     note = " (hit token cap)" if result["done_reason"] == "length" else ""
     print(f"\n[{secs}s | prompt tokens {result['prompt_tokens']} | churn {result['churn']:,} chars | "
           f"output {result['output_tokens']} tokens{note}]")
-    if a.conversation:
-        # A reply cut off by --max-tokens would sit in the history half-finished and confuse later
-        # turns ("was my answer cut off? is this my turn or the prompt?"). Record it as a clear marker.
-        kept = answer if result["done_reason"] != "length" else \
-            "[No complete answer: the reply was cut off at the token limit.]"
-        if result["done_reason"] == "length":
-            print("[cut off at the token limit - recorded in the conversation as an unanswered turn]")
-        history = messages + [{"role": "assistant", "content": kept}]
+    # A reply cut off by --max-tokens would sit in the history half-finished and confuse later
+    # turns ("was my answer cut off? is this my turn or the prompt?"). Record it as a clear marker.
+    kept = answer if result["done_reason"] != "length" else \
+        "[No complete answer: the reply was cut off at the token limit.]"
+    if result["done_reason"] == "length":
+        print("[cut off at the token limit - recorded in the conversation as an unanswered turn]")
+    return result, messages + [{"role": "assistant", "content": kept}]
+
+
+print(f"{a.model}: {len(prompts)} prompts, {run['mode']} sessions -> {out}")
+try:
+    for i, prompt in enumerate(prompts, 1):
+        result, convo = ask(i, prompt, history if a.conversation else [], f"{i}/{len(prompts)}")
+        if convo:
+            last_exchange = convo
+            if a.conversation:
+                history = convo
+except KeyboardInterrupt:
+    print("\n[interrupted - saving what's finished]")
 
 print(f"\nDone: {len(run['results'])} of {len(prompts)} prompts saved to {out}")
 print(f"{'#':>3}  {'churn':>8}  {'seconds':>7}  prompt")
@@ -130,3 +144,34 @@ for r in run["results"]:
         print(f"{r['index']:>3}  {'error':>8}  {'':>7}  {r['prompt'][:60]}")
     else:
         print(f"{r['index']:>3}  {r['churn']:>8,}  {r['seconds']:>7}  {r['prompt'][:60]}")
+
+if a.interactive:
+    try:
+        import readline  # noqa: F401  (arrow keys edit the line)
+    except ImportError:
+        pass
+    convo = history if a.conversation else last_exchange
+    where = "the whole conversation" if a.conversation else "the last prompt and answer"
+    print(f"\n[interactive: continuing from {where}. Type a message; /quit to stop.]")
+    i = len(run["results"])
+    while True:
+        try:
+            q = input("\nyou> ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            break
+        if not q:
+            continue
+        if q in ("/q", "/quit", "/exit"):
+            break
+        i += 1
+        try:
+            result, new = ask(i, q, convo, f"you #{i}")
+        except KeyboardInterrupt:
+            print("\n[reply interrupted]")
+            continue
+        if result:
+            result["interactive"] = True
+            json.dump(run, open(out, "w"), indent=1, ensure_ascii=False)
+            convo = new
+    print(f"[interactive turns saved to {out}]")

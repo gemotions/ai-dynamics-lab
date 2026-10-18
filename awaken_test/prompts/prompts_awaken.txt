@@ -22,6 +22,7 @@ When someone describes an experience, check it for a negative emotion loop this 
 5. If one matches, give its perspectives in order and its exit, as the data describes it.
    If none match, or two seem close, say so.
 
+# 5J scope line
 5J is an emotion vector and perspective.
 5J is "How can I be right?" Check your own thinking for these signs of it:
 - You state a number, vector, or fact you didn't find in the data.
