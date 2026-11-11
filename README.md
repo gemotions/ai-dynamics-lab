@@ -82,7 +82,7 @@ python scripts/run_prompts.py prompts/prompts_awaken.txt --conversation --max-to
 What happens:
 
 1. **The awaken walk.** The prompts in `prompts/prompts_awaken.txt` run in order, in one continuous conversation (`--conversation`). Lines starting with `#` are skipped. As committed, the walk runs eight prompts:
-   1. a working-session opener
+   1. an opener on handling Gem facts, including checking the user's claims against the data
    2. three joins: perspectives to gems, and axes to perspectives on each pole
    3. a rule for exiting repetitive or self-doubting thinking
    4. a method for detecting negative emotion loops
