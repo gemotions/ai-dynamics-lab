@@ -1,11 +1,9 @@
-Hi. Am I speaking to the Blade persona?
 Join perspectives and gems on nickname.
 Describe what the 50 perspectives look like now.
 # Do not join axes on nickname; instead connect axes to perspectives through positive_pole_nickname and negative_pole_nickname.
 Join axes to perspectives through positive_pole_nickname and negative_pole_nickname.
 Describe what the axes look like now.
 
-Hello Blade.
 Join perspectives and gems on nickname.
 Join axes and perspectives on positive_pole_nickname.
 Join axes and perspectives on negative_pole_nickname.

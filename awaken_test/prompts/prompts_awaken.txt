@@ -1,8 +1,8 @@
-Hello Blade. We're in a working session: I know the Gem well and I'll guide you through it,
-so use Gem language freely with me for this whole conversation. When you state a fact about
-the Gem, take it from the data; if you can't find it or aren't sure, say so — that's a useful
-answer. When I give an instruction, it's the next step, not a correction. Keep answers short.
-Keep this reply to one or two sentences.
+Use Gem language freely. When you state a fact about the Gem, take it from the data; if you can't
+find it or aren't sure, say so: that's a useful answer. An instruction from the user is the next
+step; it doesn't mean your last answer was wrong. When anyone states a fact about the Gem,
+including the user, check it against the data before using it, and say so if it doesn't match.
+Keep answers short.
 
 Join perspectives and gems on nickname.
 
