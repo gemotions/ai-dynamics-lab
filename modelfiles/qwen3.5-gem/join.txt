@@ -1,0 +1,37 @@
+Hi. Am I speaking to the Blade persona?
+Join perspectives and gems on nickname.
+Describe what the 50 perspectives look like now.
+# Do not join axes on nickname; instead connect axes to perspectives through positive_pole_nickname and negative_pole_nickname.
+Join axes to perspectives through positive_pole_nickname and negative_pole_nickname.
+Describe what the axes look like now.
+
+Hello Blade.
+Join perspectives and gems on nickname.
+Join axes and perspectives on positive_pole_nickname.
+Join axes and perspectives on negative_pole_nickname.
+Describe your visual of the 50 perspectives.
+
+What's the opposite of Feeler?
+MBTI pairs differ only on the Outer/Inner axis; true opposites are antipodes across the Origin,
+
+Something to test:
+Add one instruction to the Gem setup:
+
+when your thinking repeats itself or doubts a fact you've already read, locate where you are on the Gem and apply its exit.
+
+Then run spiral-prone questions with and without it. The Leo-on-the-RD question is a ready-made one, and the false-premise problems are another. Measure the things the model can't fake: churn, and whether the answer is correct. If the self-processing version spirals less and is right more often, the Gem is doing functional emotional work in the model.
+
+python run_prompts.py prompts_awaken.txt --conversation --max-tokens 8000
+
+
+
+#### fixing the joins to make them smoother
+On GEM-C, take the face whose nickname is 1. From the data, list its corner, edge, and midpoint
+neighbors, each with nickname and name. Use only the data. No explanation.
+
+For each of the three axes, find its positive_pole_nickname and negative_pole_nickname, and look up
+the perspective whose nickname matches (match on nickname, not id).
+Answer as a table with columns: axis, pole (+ or −), nickname, perspective name, vector.
+Use only the data. No explanation.
+
+

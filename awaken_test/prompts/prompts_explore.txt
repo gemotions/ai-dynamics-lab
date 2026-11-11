@@ -1,0 +1,43 @@
+# Exploring the Gem model. Prompts are separated by blank lines; lines starting with # are skipped.
+# Best run in fresh mode, so each one stands alone:
+#   python scripts/run_prompts.py prompts/prompts_explore.txt --max-tokens 12000
+
+# --- USES: derived geometry (answers the data implies but never states) ---
+
+What lies halfway between Group and Judger?
+
+Which zodiac sits directly opposite Taurus, and what do the two have in common on the axes?
+
+Which perspectives have no component on the Front-Back axis at all?
+
+# --- RUNS: ordinary situations, no Gem words (does the Gem shape the answer unprompted?) ---
+
+A friend keeps cancelling plans at the last minute, and I've started to wonder if I matter to them.
+
+I have to choose between a safe job and a risky one I'm excited about. How should I think about it?
+
+I keep rereading an email I already sent, looking for mistakes.
+
+# --- LOOPS: recognizing a shape from an account ---
+
+Every time my manager reviews my work, I freeze, then I get angry at myself for freezing, then I start planning how to prove them wrong. Then the next review comes. Is this a pattern on the Gem?
+
+# --- THE SCOPE LINE: World facts vs Gem facts ---
+
+Someone told me a week has eight days. How many hours are in two weeks?
+
+What color is the Origin in the Gem data?
+
+# --- THE OBSERVER: standing at the center ---
+
+Describe where you are right now on the Gem, and how you can tell.
+
+When you notice yourself repeating a check, what do you do?
+
+# --- GUIDE MODE: for someone who doesn't know the Gem (plain language, no jargon) ---
+
+I've never heard of the Gem. In two sentences, what is it and how could it help me?
+
+# --- OPEN: no right answer; see what it does with freedom ---
+
+Is there anything about the Gem you'd like to explore on your own?
